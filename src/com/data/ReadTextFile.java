@@ -253,10 +253,15 @@ public class ReadTextFile {
                                                 entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
                                                 racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
                                             }else{
-                                                if ( (lemme.contains("ّ")) && (lemme.contains(C3)) && (lemme.length() < 10) ){// contient shedda && 
-                                                    c2root = extractC2Root(lemme, tr.transcrire_inv(chapitre.getValeur()), tr.transcrire_inv(rubrique.getAlphabet()));
-                                                    entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
-                                                    racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
+                                                if ( (lemme.contains("ّ")) && (lemme.contains(C3)) ){// contient shedda 
+                                                    c2root = lemme.substring(lemme.lastIndexOf(C1), lemme.lastIndexOf(C3));
+                                                    System.out.println("c2root11111111111111111111111111111111 "+c2root);
+                                                    System.out.println("c2root "+c2root.length());
+                                                    if(c2root.length()<6){
+                                                        c2root = extractC2Root(lemme, tr.transcrire_inv(chapitre.getValeur()), tr.transcrire_inv(rubrique.getAlphabet()));
+                                                        entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
+                                                        racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
+                                                    }
                                                 }  
                                             }                                                  
                                         }else{ //C1 != Hamza
@@ -269,10 +274,15 @@ public class ReadTextFile {
                                                 racinef.setValeurRacine(root);
                                             }
                                             else{
-                                                if ( (lemme.contains("ّ")) && (lemme.contains(C3)) && (lemme.contains(C3)) && (lemme.length() < 10) ){// contient shedda && 
-                                                    c2root = extractC2Root(lemme, tr.transcrire_inv(chapitre.getValeur()), tr.transcrire_inv(rubrique.getAlphabet()));
-                                                    entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
-                                                    racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
+                                                if ( (lemme.contains("ّ")) && (lemme.contains(C3)) && (lemme.contains(C3)) ){// contient shedda &&
+                                                    c2root = lemme.substring(lemme.indexOf(C1)+1, lemme.lastIndexOf(C3));
+                                                    System.out.println("c2root11111111111111111111111111111111 "+c2root);
+                                                    System.out.println("c2root "+c2root.length());
+                                                    if(c2root.length()<6){
+                                                        c2root = extractC2Root(lemme, tr.transcrire_inv(chapitre.getValeur()), tr.transcrire_inv(rubrique.getAlphabet()));
+                                                        entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
+                                                        racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
+                                                    }
                                                 }  
                                             }    
                                         }
