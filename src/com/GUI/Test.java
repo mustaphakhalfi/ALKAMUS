@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 public class Test {
     
 public Test() throws IOException {
-        ex06();
+        ex02();
     }
 
     public static void main(String []args ) throws IOException{
@@ -35,12 +35,11 @@ public Test() throws IOException {
     private void ex02() {
         ReadTextFile rtf=new ReadTextFile();
         
-//        rtf.readTxt("src/com/dbAlphabet/test-bAe.txt");
 //        rtf.readTxt("src/com/dbAlphabet/newBAe.txt");
-        rtf.readTxt("src/com/dbAlphabet/BAe_corrigé_27_10_2015.txt");
+        rtf.readTxt("src/com/dbAlphabet/BAe_corrigé_19_11_waw_removed.txt");
         System.out.println("Fin du chargement du Fichier...");
 //        rtf.xmlFormat("src/com/dbAlphabet/test-bAe.txt");
-        rtf.xmlFormat("src/com/dbAlphabet/BAe_corrigé_waw_removed.txt");
+        rtf.xmlFormat("src/com/dbAlphabet/BAe_corrigé_19_11_waw_removed.txt");
         System.out.println("Fin d'écriture du fichier XML ");
     }
     

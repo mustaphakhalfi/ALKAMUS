@@ -223,7 +223,6 @@ public class ReadTextFile {
                                         EntreeLexical entreeLex = new EntreeLexical();
                                         entreeLex.setTexteBrut(textBrut);
                                         String lemme = extractLemma(textBrut);
-                                        
                                         TransAlphabetRacine tr = new TransAlphabetRacine();
                                         String C3=tr.transcrire_inv(rubrique.getAlphabet());
                                         String C1 = tr.transcrire_inv(chapitre.getValeur());
@@ -246,7 +245,7 @@ public class ReadTextFile {
                                         }
                                         
                                         if (chapitre.getValeur().equals("الهَمْزة")){//C1 == Hamza
-//                                          System.out.println("lemmeRooooooooooooooooooooooooooooooooooooooooooot1 " + lemmeRoot);
+//                                            System.out.println("lemmeRooooooooooooooooooooooooooooooooooooooooooot1 " + lemme);
                                             if ( !(lemme.contains("ّ")) && (lemme.contains(C3)) ){//ne contient pas shedda && 
 //                                              System.out.println("lemmeRooooooooooooooooooooooooooooooooooooooooooot" + lemmeRoot);
                                                 c2root = lemme.substring(lemme.lastIndexOf(C3)-2, lemme.lastIndexOf(C3)-1);
@@ -254,7 +253,7 @@ public class ReadTextFile {
                                                 entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
                                                 racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
                                             }else{
-                                                if ( (lemme.contains("ّ")) && (lemme.contains(C3)) ){// contient shedda && 
+                                                if ( (lemme.contains("ّ")) && (lemme.contains(C3)) && (lemme.length() < 10) ){// contient shedda && 
                                                     c2root = extractC2Root(lemme, tr.transcrire_inv(chapitre.getValeur()), tr.transcrire_inv(rubrique.getAlphabet()));
                                                     entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
                                                     racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
@@ -270,7 +269,7 @@ public class ReadTextFile {
                                                 racinef.setValeurRacine(root);
                                             }
                                             else{
-                                                if ( (lemme.contains("ّ")) && (lemme.contains(C3)) && (lemme.contains(C3)) ){// contient shedda && 
+                                                if ( (lemme.contains("ّ")) && (lemme.contains(C3)) && (lemme.contains(C3)) && (lemme.length() < 10) ){// contient shedda && 
                                                     c2root = extractC2Root(lemme, tr.transcrire_inv(chapitre.getValeur()), tr.transcrire_inv(rubrique.getAlphabet()));
                                                     entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
                                                     racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
@@ -616,7 +615,7 @@ public class ReadTextFile {
                 }
             }
             racine = C1  +" "+ C2 + "" + C3;
-            System.out.println(" racine.length() "+racine.length());
+//            System.out.println(" racine.length() "+racine.length());
             if (racine.length()>5  && racine.contains("ا")){
                 racine = racine.replace(" ا", "");
             }
