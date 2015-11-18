@@ -255,9 +255,10 @@ public class ReadTextFile {
                                             }else{
                                                 if ( (lemme.contains("ّ")) && (lemme.contains(C3)) ){// contient shedda 
                                                     c2root = lemme.substring(lemme.lastIndexOf(C1), lemme.lastIndexOf(C3));
+                                                    c2root= removeDiacritic(c2root);
                                                     System.out.println("c2root11111111111111111111111111111111 "+c2root);
                                                     System.out.println("c2root "+c2root.length());
-                                                    if(c2root.length()<6){
+                                                    if(c2root.length()<4){
                                                         c2root = extractC2Root(lemme, tr.transcrire_inv(chapitre.getValeur()), tr.transcrire_inv(rubrique.getAlphabet()));
                                                         entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
                                                         racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
@@ -276,9 +277,10 @@ public class ReadTextFile {
                                             else{
                                                 if ( (lemme.contains("ّ")) && (lemme.contains(C3)) && (lemme.contains(C3)) ){// contient shedda &&
                                                     c2root = lemme.substring(lemme.indexOf(C1)+1, lemme.lastIndexOf(C3));
+                                                    c2root= removeDiacritic(c2root);
                                                     System.out.println("c2root11111111111111111111111111111111 "+c2root);
                                                     System.out.println("c2root "+c2root.length());
-                                                    if(c2root.length()<6){
+                                                    if(c2root.length()<2){
                                                         c2root = extractC2Root(lemme, tr.transcrire_inv(chapitre.getValeur()), tr.transcrire_inv(rubrique.getAlphabet()));
                                                         entreeLex.setRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
                                                         racinef.setValeurRacine(tr.transcrire_inv(chapitre.getValeur())+" "+c2root+" "+tr.transcrire_inv(rubrique.getAlphabet()));
@@ -595,6 +597,17 @@ public class ReadTextFile {
         String C2=null;
         C2 = lemme.substring(lemme.lastIndexOf("ّ")-1, lemme.lastIndexOf("ّ"));
         return C2;
+    }
+    
+    public String removeDiacritic(String mot){
+        String [] voyelles = {"َ","ِ","ُ","ْ","ً","ٍ","ٌ","ِّ","ُّ","َّ","ًّ","ٌّ","ٍّ","ّ"};
+        for (int i = 0; i < voyelles.length; i++) {
+            if ( mot.contains(voyelles[i]) ){
+                mot = mot.replace(voyelles[i], ""); //enlever voyelles
+                System.out.println(" mot sans voyelles "+ mot);
+            }
+        }
+        return mot;
     }
     
     public String  extractracine(String lemme,String C1, String C3){
