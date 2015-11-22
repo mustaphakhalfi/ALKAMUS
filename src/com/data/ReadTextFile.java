@@ -716,4 +716,329 @@ public class ReadTextFile {
         }
         return lemme;
     }
+
+    //////////////////////////////////////////////////////////////////:
+   public void splitFile(String filePath){
+	try {  
+                String alphabet = "[ء-ي]";
+                String voyelle = "[ًٌٍٍَُِِّّّْ]";
+                String lemma ="[ء-يًًٌٌٍٍٍََُُُِِِّّّّّّّّّّْأإآ]*";
+                String nom1 ="ال"+lemma;//commence par AL
+                String nom2 =""+lemma+"ٌ";//se termine par tenwin
+                String nom3 =""+lemma+"ة"+voyelle+"?";
+                String verbe1 =""+alphabet+"{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
+                String verbe2 =""+alphabet+"{1}?َ"+alphabet+"{1}?ِ"+alphabet+"{1}?َ";
+                String verbe3 =""+alphabet+"{1}?َ"+alphabet+"{1}?ُ"+alphabet+"{1}?َ";
+                String means = ""+lemma+":?"+lemma+"?";
+                
+                Pattern p1=Pattern.compile(""+nom1+"",Pattern.UNICODE_CASE);
+                Pattern p2=Pattern.compile(""+nom2+"",Pattern.UNICODE_CASE);
+                Pattern p3=Pattern.compile(""+nom3+"",Pattern.UNICODE_CASE);
+                Pattern p4=Pattern.compile(""+verbe1+"",Pattern.UNICODE_CASE);
+                Pattern p5=Pattern.compile(""+verbe2+"",Pattern.UNICODE_CASE);
+                Pattern p6=Pattern.compile(""+verbe3+"",Pattern.UNICODE_CASE);
+                
+                racine1 = new Element("Document");
+                racine2 = new Element("Document");
+                racine3 = new Element("Document");
+//                racine4 = new Element("Document");
+                
+		doc1 =new Document();
+                doc1.setRootElement(racine1);
+                doc2 =new Document();
+                doc2.setRootElement(racine2);
+                doc3 =new Document();
+                doc3.setRootElement(racine3);
+//                doc4 =new Document();
+//                doc4.setRootElement(racine4);
+                
+                Element rubriq=new Element("Rubrique");
+                Element rubriq2=new Element("Rubrique");
+                Element rubriq3=new Element("Rubrique");
+//                Element rubriq4=new Element("Rubrique");
+//                for (int k = 0; k < rubriques.size(); k++){
+                    rubriq=new Element("rubrique");
+                    rubriq.setAttribute("value", rubrique.getAlphabet());
+                    rubriq2=new Element("rubrique");
+                    rubriq2.setAttribute("value", rubrique.getAlphabet());
+                    rubriq3=new Element("rubrique");
+                    rubriq3.setAttribute("value", rubrique.getAlphabet());
+//                    rubriq4=new Element("rubrique");
+//                    rubriq4.setAttribute("value", rubrique.getAlphabet());
+//                }
+                       racine1.addContent(rubriq);
+                       racine2.addContent(rubriq2);
+                       racine3.addContent(rubriq3);
+//                       racine4.addContent(rubriq4);
+//                       
+                   
+  //-----------------------\\ create Chapitre //---------------------  
+                Element chapitr =new Element("Chapitre");
+                Element chapitr2 =new Element("Chapitre");
+                Element chapitr3 =new Element("Chapitre");
+//                Element chapitr4 =new Element("Chapitre");
+                    System.out.println("chapitres.size()  "+chapitres.size());
+                    for (int j = 0; j < chapitres.size(); j++){ 
+                        chapitr=new Element("chapitre");
+                        chapitr2=new Element("chapitre");
+                        chapitr3=new Element("chapitre");
+//                        chapitr4=new Element("chapitre");
+                        
+                        //addEnter(chapitres.get(i).getEntreeLexicals().elementAt(i));
+                        System.out.println(chapitres.get(j).getValeur());
+                        //System.out.println(chapitres.get(j).getEntreeLexicals().size());
+                        chapitr.setAttribute("value", chapitres.get(j).getValeur());
+                        chapitr2.setAttribute("value", chapitres.get(j).getValeur());
+                        chapitr3.setAttribute("value", chapitres.get(j).getValeur());
+//                        chapitr4.setAttribute("value", chapitres.get(j).getValeur());
+                        
+                            //----------- create Entree-Lexical -------------
+                        
+                        Element racineFam1=new Element("Racine_Familly");
+                        Element racineFam2=new Element("Racine_Familly");
+                        Element racineFam3=new Element("Racine_Familly");
+                        
+                        Element enter=new Element("Entree_lexical");
+                        for (int x = 0; x < chapitres.get(j).getRacineFams().size(); x++) {
+                            
+                            racineFam1 = new Element("Racine_Familly");
+                            racineFam2 = new Element("Racine_Familly");
+                            racineFam3 = new Element("Racine_Familly");
+                            if (chapitres.get(j).getRacineFams().get(x).getValeurRacine() == null){
+                                racineFam1.setAttribute("C1",chapitres.get(j).getValeur()).setAttribute("C2","R2").setAttribute("C3",rubrique.getAlphabet());
+                                racineFam2.setAttribute("C1",chapitres.get(j).getValeur()).setAttribute("C2","R2").setAttribute("C3",rubrique.getAlphabet());
+                                racineFam3.setAttribute("C1",chapitres.get(j).getValeur()).setAttribute("C2","R2").setAttribute("C3",rubrique.getAlphabet());
+                            }else{
+
+                                String C1,C2,C3;
+                                String [] root;
+                                TransAlphabetRacine tr = new TransAlphabetRacine();
+                                root = chapitres.get(j).getRacineFams().get(x).getValeurRacine().split(" ");
+                                C1 = tr.transcrire(root[0]); 
+                                C2 = tr.transcrire(root[1]);
+                                C3 = tr.transcrire(root[2]);
+                                System.out.println("C1 "+C1 +"   C2 "+C2 + "    C3 "+C3 );
+                                System.out.println("C1 "+root[0] +"   C2 "+root[1] + "    C3 "+root[2] );
+                                racineFam1.setAttribute("C1",C1).setAttribute("C2",C2).setAttribute("C3",C3);
+                                racineFam2.setAttribute("C1",C1).setAttribute("C2",C2).setAttribute("C3",C3);
+                                racineFam3.setAttribute("C1",C1).setAttribute("C2",C2).setAttribute("C3",C3);
+                            }
+//                            racineFam1.setAttribute("C1","C1").setAttribute("C2","C2").setAttribute("C3","C3");
+//                            racineFam2.setAttribute("C1","C1").setAttribute("C2","C2").setAttribute("C3","C3");
+//                            racineFam3.setAttribute("C1","C1").setAttribute("C2","C2").setAttribute("C3","C3");
+                            
+                            for (int i = 0; i < chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().size(); i++) {
+                                String split[] = chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut().split(" ");
+                                String mot;
+                                mot= split[0];
+                                if (split[0].contains(":")){
+                                    String splt2pt[]= split[0].split(":");
+                                    mot= splt2pt[0];
+                                }
+                                if (split[0].contains("،")){
+                                    String spltvrg[]= split[0].split("،");
+                                    mot= spltvrg[0];
+                                }
+                                
+                                Matcher m1 = p1.matcher( mot );
+                                Matcher m2 = p2.matcher( mot );
+                                Matcher m3 = p3.matcher( mot );
+                                Matcher m4 = p4.matcher( mot );
+                                Matcher m5 = p5.matcher( mot );
+                                Matcher m6 = p6.matcher( mot );
+    //                            boolean b1 = m1.matches();
+    //                            System.out.println(" B1 : "+b1);
+    //                            boolean b2 = m2.matches();
+    //                            boolean b3 = m3.matches();
+    //                            boolean b4 = m4.matches();
+                                //---------------------Form Noun------------------
+                                if(m1.matches() || m2.matches() || m3.matches()){
+                                    enter=new Element("Entrée_lexical");
+                                    Element txtBrut=new Element("text-brut");
+                                    System.out.println(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());
+                                    txtBrut.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());
+                                    enter.addContent(txtBrut);
+
+                                    Element lemme=new Element("lemme");
+                                    if(!(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getLemme() == null)){  
+                                        lemme.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getLemme());
+                                        enter.addContent(lemme);
+                                    }
+                                    if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition() !=null){
+                                        Vector<String> defs = new Vector<>();
+                                        if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens().contains("،")){
+                                            defs = extractDef(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens());
+                                            for (int p = 0; p < defs.size(); p++) {
+                                                if (defs.get(p).contains("ج.")){
+                                                    String plr = defs.get(p).replace("ج.", "");
+                                                    Element pluriel=new Element("Pluriel");
+                                                    pluriel.setText(plr);
+                                                    enter.addContent(pluriel);
+                                                }else{
+                                                    Element glosse=new Element("Définition"+(p+1));
+                                                    glosse.setText(defs.get(p));
+                                                    enter.addContent(glosse);
+                                                }
+                                            }
+                                        }else{
+                                            Element glosse=new Element("Définition");
+                                            glosse.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens());
+                                            enter.addContent(glosse);
+                                        }
+                                    }
+                    
+                                    Element racine=new Element("racine");
+
+                                    if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getRacine() != null){
+                                        racine.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getRacine());
+                                    }else {
+                                        TransAlphabetRacine tar = new TransAlphabetRacine();
+                                        racine.setText(tar.transcrire_inv(chapitres.get(j).getValeur())+" "+"c2" +" "+tar.transcrire_inv(rubrique.getAlphabet()));
+                                    }
+                                    enter.addContent(racine);
+
+                                    racineFam1.addContent(enter);
+
+                                }else
+
+                                //---------------------Form verbes------------------
+                                if(m4.matches() || m5.matches() || m6.matches()){
+                                    enter=new Element("Entrée_lexical");
+                                    Element txtBrut=new Element("text-brut");
+                                    System.out.println(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());
+                                    txtBrut.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());
+                                    enter.addContent(txtBrut);
+
+                                    Element lemme=new Element("lemme");
+                                    if(!(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getLemme() == null)){  
+                                        lemme.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getLemme());
+                                        enter.addContent(lemme);
+                                    }
+                                    if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition() !=null){
+                                        Vector<String> defs = new Vector<>();
+                                        if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens().contains("،")){
+                                            defs = extractDef(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens());
+                                            for (int p = 0; p < defs.size(); p++) {
+                                                if (defs.get(p).contains("ج.")){
+                                                    String plr = defs.get(p).replace("ج.", "");
+                                                    Element pluriel=new Element("Pluriel");
+                                                    pluriel.setText(plr);
+                                                    enter.addContent(pluriel);
+                                                }else{
+                                                    Element glosse=new Element("Définition"+(p+1));
+                                                    glosse.setText(defs.get(p));
+                                                    enter.addContent(glosse);
+                                                }
+                                            }
+                                        }else{
+                                            Element glosse=new Element("Définition");
+                                            glosse.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens());
+                                            enter.addContent(glosse);
+                                        }
+                                    }
+                    
+                                    Element racine=new Element("racine");
+
+                                    if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getRacine() != null){
+                                        racine.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getRacine());
+                                    }else {
+                                        TransAlphabetRacine tar = new TransAlphabetRacine();
+                                        racine.setText(tar.transcrire_inv(chapitres.get(j).getValeur())+" "+"c2" +" "+tar.transcrire_inv(rubrique.getAlphabet()));
+                                    }
+                                    enter.addContent(racine);
+                                    
+                                    racineFam2.addContent(enter);
+
+                                }
+
+                            //---------------------Form others------------------
+                                else{
+                                    enter=new Element("Entrée_lexical");
+                                    Element txtBrut=new Element("text-brut");
+                                    System.out.println(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());
+                                    txtBrut.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());
+                                    enter.addContent(txtBrut);
+
+                                    Element lemme=new Element("lemme");
+                                    if(!(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getLemme() == null)){  
+                                        lemme.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getLemme());
+                                        enter.addContent(lemme);
+                                    }
+                                    if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition() !=null){
+                                        Vector<String> defs = new Vector<>();
+                                        if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens().contains("،")){
+                                            defs = extractDef(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens());
+                                            for (int p = 0; p < defs.size(); p++) {
+                                                if (defs.get(p).contains("ج.")){
+                                                    String plr = defs.get(p).replace("ج.", "");
+                                                    Element pluriel=new Element("Pluriel");
+                                                    pluriel.setText(plr);
+                                                    enter.addContent(pluriel);
+                                                }else{
+                                                    Element glosse=new Element("Définition"+(p+1));
+                                                    glosse.setText(defs.get(p));
+                                                    enter.addContent(glosse);
+                                                }
+                                            }
+                                        }else{
+                                            Element glosse=new Element("Définition");
+                                            glosse.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens());
+                                            enter.addContent(glosse);
+                                        }
+                                    }
+                    
+                                    Element racine=new Element("racine");
+
+                                    if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getRacine() != null){
+                                        racine.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getRacine());
+                                    }else {
+                                        TransAlphabetRacine tar = new TransAlphabetRacine();
+                                        racine.setText(tar.transcrire_inv(chapitres.get(j).getValeur())+" "+"c2" +" "+tar.transcrire_inv(rubrique.getAlphabet()));
+                                    }
+                                    enter.addContent(racine);
+
+                                    racineFam3.addContent(enter);
+
+                                }
+                                 
+                            }
+                            if(racineFam1.getContentSize()!=0)
+                                chapitr.addContent(racineFam1);
+                            if(racineFam2.getContentSize()!=0)
+                                chapitr2.addContent(racineFam2);
+                            if(racineFam3.getContentSize()!=0)
+                            chapitr3.addContent(racineFam3);
+                       }
+                        
+                        rubriq.addContent(chapitr);
+                        rubriq2.addContent(chapitr2);
+                        rubriq3.addContent(chapitr3);
+
+                   }
+		
+	} catch (Exception e) {
+		System.out.println("Erreur : "+e.getMessage());
+                e.printStackTrace();
+	}
+        
+         try
+        {
+           //XMLOutputter sortie = new XMLOutputter(Format.getPrettyFormat());
+           
+           XMLOutputter sortie_form1=new XMLOutputter(Format.getPrettyFormat());
+           XMLOutputter sortie_form2=new XMLOutputter(Format.getPrettyFormat());
+           XMLOutputter sortie_form3=new XMLOutputter(Format.getPrettyFormat());
+//           XMLOutputter sortie_form4=new XMLOutputter(Format.getPrettyFormat());
+           
+           //sortie.output(doc, new FileOutputStream("src/com/baseAlphabet/fichier.xml"));
+           sortie_form1.output(doc1, new FileOutputStream("src/com/dbAlphabet/fichier_noms.xml"));
+           sortie_form2.output(doc2, new FileOutputStream("src/com/dbAlphabet/fichier_verbes.xml"));
+           sortie_form3.output(doc3, new FileOutputStream("src/com/dbAlphabet/fichier_Form3.xml"));
+//           sortie_form4.output(doc4, new FileOutputStream("src/com/baseAlphabet/fichier_Form4.xml"));
+        }
+        catch (java.io.IOException e){}
+    
+    }
+    
+    
 }

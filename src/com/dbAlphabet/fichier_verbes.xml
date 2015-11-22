@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+  <rubrique value="البَاء">
+    <chapitre value="الهَمْزة">
+      <Racine_Familly C1="الهَمْزة" C2="الدّال" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>أَدَبَ يَأْدِبُ أَدَباً، مُحَرَّكَةً: عَمِلَ مَأْدَبَةً (وأُدْبَةً).</text-brut>
+          <lemme>أَدَبَ</lemme>
+          <Définition>عَمِلَ مَأْدَبَةً (وأُدْبَةً).</Définition>
+          <racine>أ د ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الهَمْزة" C2="الزّاي" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>أَزَبَ الماءُ، كَضَرَبَ: جَرى،</text-brut>
+          <lemme>أَزَبَ</lemme>
+          <Définition1>جَرى</Définition1>
+          <racine>أ ز ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الهَمْزة" C2="اللاّم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>أَلَبَ القَوْمُ إليه: أَتَوْهُ من كلّ جانبٍ،</text-brut>
+          <lemme>أَلَبَ</lemme>
+          <Définition1>أَتَوْهُ من كلّ جانبٍ</Définition1>
+          <racine>أ ل ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الهَمْزة" C2="الواو" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>أَوِبَ، كَفرِحَ: غَضِبَ، وأَوْأَبْتُهُ.</text-brut>
+          <lemme>أَوِبَ</lemme>
+          <Définition1>غَضِبَ</Définition1>
+          <Définition2>وأَوْأَبْتُهُ.</Définition2>
+          <racine>أ و ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="البَاء" />
+    <chapitre value="التَّاء">
+      <Racine_Familly C1="التَّاء" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>تَرِبَ، كَفرحَ: كَثُرَ تُرَابُه، وصارَ في يَده التُّرَابُ، ولَزِقَ بالتُّرابِ، وخَسِرَ، وافْتَقَرَ تَرَباً ومَتْرَباً،</text-brut>
+          <lemme>تَرِبَ</lemme>
+          <Définition1>كَثُرَ تُرَابُه</Définition1>
+          <Définition2>وصارَ في يَده التُّرَابُ</Définition2>
+          <Définition3>ولَزِقَ بالتُّرابِ</Définition3>
+          <Définition4>وخَسِرَ</Définition4>
+          <Définition5>وافْتَقَرَ تَرَباً ومَتْرَباً</Définition5>
+          <racine>ت ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="التَّاء" C2="العَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>تَعِبَ، كفرح: ضِدُّ اسْتَراحَ، وأتْعَبَه، وهو تَعِبٌ ومُتْعَبٌ، لامَتْعُوبٌ.</text-brut>
+          <lemme>تَعِبَ</lemme>
+          <Définition1>ضِدُّ اسْتَراحَ</Définition1>
+          <Définition2>وأتْعَبَه</Définition2>
+          <Définition3>وهو تَعِبٌ ومُتْعَبٌ</Définition3>
+          <Définition4>لامَتْعُوبٌ.</Définition4>
+          <racine>ت ع ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="التَّاء" C2="الغَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>تَغِبَ، كفرِحَ، وأتْغَبَه غيرُه.</text-brut>
+          <lemme>تَغِبَ</lemme>
+          <racine>ت غ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الثَّاء">
+      <Racine_Familly C1="الثَّاء" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ثَرَبَ المَرِيضَ يَثْرِبُه: نَزَعَ عنه ثَوْبَه.</text-brut>
+          <lemme>ثَرَبَ</lemme>
+          <Définition>نَزَعَ عنه ثَوْبَه.</Définition>
+          <racine>ث ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الثَّاء" C2="العَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ثَعَبَ الماءَ والدَّم كمنع: فَجَرَهُ فَانْثَعَبَ.</text-brut>
+          <lemme>ثَعَبَ</lemme>
+          <Définition>فَجَرَهُ فَانْثَعَبَ.</Définition>
+          <racine>ث ع ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الجيْم">
+      <Racine_Familly C1="الجيْم" C2="الهَمْزة" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>جَأَبَ، كمنع: كَسَبَ المالَ، باع المَغْرَةَ.</text-brut>
+          <lemme>جَأَبَ</lemme>
+          <Définition1>كَسَبَ المالَ</Définition1>
+          <Définition2>باع المَغْرَةَ.</Définition2>
+          <racine>ج أ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الجيْم" C2="الذّال" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>جَذَبَ النَّخْلَةَ يَجْذِبُها: قَطَعَ جَذَبَها،</text-brut>
+          <lemme>جَذَبَ</lemme>
+          <Définition1>قَطَعَ جَذَبَها</Définition1>
+          <racine>ج ذ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الجيْم" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>جَرِبَ، كَفَرِحَ: هَلَكَتْ أَرْضُهُ،</text-brut>
+          <lemme>جَرِبَ</lemme>
+          <Définition1>هَلَكَتْ أَرْضُهُ</Définition1>
+          <racine>ج ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الجيْم" C2="الشِّيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>جَشَبَ الطَّعامُ، كَنَصَرَ وسَمِعَ،</text-brut>
+          <lemme>جَشَبَ</lemme>
+          <racine>ج ش ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الجيْم" C2="اللاّم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>جَلَبَ لأِهْلِهِ: كَسَبَ، وطَلَبَ، واحْتَالَ، كأَجْلَبَ،</text-brut>
+          <lemme>جَلَبَ</lemme>
+          <Définition1>كَسَبَ</Définition1>
+          <Définition2>وطَلَبَ</Définition2>
+          <Définition3>واحْتَالَ</Définition3>
+          <Définition4>كأَجْلَبَ</Définition4>
+          <racine>ج ل ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>جَلَبَ الدَّمُ  يَجْلِبُ ويَجْلُبُ: يَبِسَ وَتَوَعَد بِشَرٍّ،أَو جَمَعَ الجَمعَ، كَأجَلَبَ في الكُلِّ،</text-brut>
+          <lemme>جَلَبَ</lemme>
+          <Définition1>يَبِسَ وَتَوَعَد بِشَرٍّ</Définition1>
+          <Définition2>أَو جَمَعَ الجَمعَ</Définition2>
+          <Définition3>كَأجَلَبَ في الكُلِّ</Définition3>
+          <racine>ج ل ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الجيْم" C2="النُّون" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>جَنَبَ إليه، كَنَصَرَ وسَمِعَ: قَلِقَ.</text-brut>
+          <lemme>جَنَبَ</lemme>
+          <Définition>قَلِقَ.</Définition>
+          <racine>ج ن ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الِحَاء">
+      <Racine_Familly C1="الِحَاء" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>حَرِبَ، كَفَرِحَ: كَلِبَ، واشْتَدَّ غَضَبهُ، فهو حَرِبٌ من حَرْبَى، وحَرَّبْتُهُ تَحْرِيباً.</text-brut>
+          <lemme>حَرِبَ</lemme>
+          <Définition1>كَلِبَ</Définition1>
+          <Définition2>واشْتَدَّ غَضَبهُ</Définition2>
+          <Définition3>فهو حَرِبٌ من حَرْبَى</Définition3>
+          <Définition4>وحَرَّبْتُهُ تَحْرِيباً.</Définition4>
+          <racine>ح ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الِحَاء" C2="الضَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>حَضَبَ النَّارَ يَحْضِبُها: رَفَعَها، أو ألْقَى عليها الحَطَبَ، كأحْضَبَها.</text-brut>
+          <lemme>حَضَبَ</lemme>
+          <Définition1>رَفَعَها</Définition1>
+          <Définition2>أو ألْقَى عليها الحَطَبَ</Définition2>
+          <Définition3>كأحْضَبَها.</Définition3>
+          <racine>ح ض ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الِحَاء" C2="الطّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>حَطَبَ، كَضَرَبَ: جَمَعَه، كاحْتَطَبَ،</text-brut>
+          <lemme>حَطَبَ</lemme>
+          <Définition1>جَمَعَه</Définition1>
+          <Définition2>كاحْتَطَبَ</Définition2>
+          <racine>ح ط ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>حَطَبَ به: سَعَى.</text-brut>
+          <lemme>حَطَبَ</lemme>
+          <Définition>سَعَى.</Définition>
+          <racine>ح ط ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>حَطَبَ في حَبْلِهِمْ، يَحْطِبُ: نَصَرَهُمْ.</text-brut>
+          <lemme>حَطَبَ</lemme>
+          <Définition>نَصَرَهُمْ.</Définition>
+          <racine>ح ط ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الِحَاء" C2="الظّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>حَظَبَ يَحْظِبُ حُظُوباً،</text-brut>
+          <lemme>حَظَبَ</lemme>
+          <racine>ح ظ ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>حَظِبَ، كَفَرِحَ ونَصَرَ: سَمِنَ، وامْتَلأَ بَطْنُهُ،</text-brut>
+          <lemme>حَظِبَ</lemme>
+          <Définition1>سَمِنَ</Définition1>
+          <Définition2>وامْتَلأَ بَطْنُهُ</Définition2>
+          <racine>ح ظ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الِحَاء" C2="القَاف" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>حَقِبَ، كَفَرَحَ: تَعَسَّرَ عليه البَوْلُ من وُقُوعِ الحَقَبِ على ثِيلِه،</text-brut>
+          <lemme>حَقِبَ</lemme>
+          <Définition1>تَعَسَّرَ عليه البَوْلُ من وُقُوعِ الحَقَبِ على ثِيلِه</Définition1>
+          <racine>ح ق ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الِحَاء" C2="اللاّم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>حَلَبَ: جَلَسَ على رُكْبَتَيْهِ،</text-brut>
+          <lemme>حَلَبَ</lemme>
+          <Définition1>جَلَسَ على رُكْبَتَيْهِ</Définition1>
+          <racine>ح ل ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الخَاء">
+      <Racine_Familly C1="الخَاء" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>خَرِبَ، كَفَرِحَ، وأخْرَبَهُ وخَرَّبَهُ.</text-brut>
+          <lemme>خَرِبَ</lemme>
+          <racine>خ ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الخَاء" C2="الزّاي" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>خَزِبَ، كَفَرِحَ: وَرِمَ، أو سَمِنَ حتى كأَنَّه وارمٌ،</text-brut>
+          <lemme>خَزِبَ</lemme>
+          <Définition1>وَرِمَ</Définition1>
+          <Définition2>أو سَمِنَ حتى كأَنَّه وارمٌ</Définition2>
+          <racine>خ ز ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الخَاء" C2="الضَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>خَضَبَ الشَّجَرُ يَخْضِبُ، وكسَمِعَ وعُنِيَ،</text-brut>
+          <lemme>خَضَبَ</lemme>
+          <racine>خ ض ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الخَاء" C2="الطّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>خَطَبَ المرأةَ خَطْباً وخِطْبَةً وخِطِّيبَى، بكسرهما، واخْتَطَبَهَا، وهي خِطْبُهُ وخُطْبَتُهُ وخِطِّيباهُ وخِطِّيبَتُه، وهو خِطْبُها، بكسرهنَّ، ويُضَمُّ الثاني، ج. أخْطابٌ، وخطِّيبُها، كَسِكِّيتٍ، ج. خطِّيبون.</text-brut>
+          <lemme>خَطَبَ</lemme>
+          <racine>خ ط ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>خَطَبَ الخاطبُ على المِنْبَرِ خَطابَةً، بالفتح، وخُطْبَةً، بالضم، وذلك الكلامُ: خُطْبَةٌ أيضاً، أو هي الكلامُ المَنْثُورُ المُسَجَّعُ ونحوهُ.</text-brut>
+          <lemme>خَطَبَ</lemme>
+          <Définition1>خُطْبَةٌ أيضاً</Définition1>
+          <Définition2>أو هي الكلامُ المَنْثُورُ المُسَجَّعُ ونحوهُ.</Définition2>
+          <racine>خ ط ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>خَطِبَ، كَفَرِحَ، فَهو أخْطَبُ</text-brut>
+          <lemme>خَطِبَ</lemme>
+          <racine>خ ط ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الخَاء" C2="النُّون" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>خَنِبَ، كَفَرِحَ،</text-brut>
+          <lemme>خَنِبَ</lemme>
+          <racine>خ ن ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الدّال">
+      <Racine_Familly C1="الدّال" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>دَرِبَ به، كَفَرحَ، دَرَباً ودُرْبَةً، بالضمِّ: ضَرِيَ، كَتَدَرَّبَ ودَرْدَبَ.</text-brut>
+          <lemme>دَرِبَ</lemme>
+          <Définition1>ضَرِيَ</Définition1>
+          <Définition2>كَتَدَرَّبَ ودَرْدَبَ.</Définition2>
+          <racine>د ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الدّال" C2="العَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>دَعَبَ، كَمَنَعَ: دَفَعَ، وجامَعَ، ومازَحَ.</text-brut>
+          <lemme>دَعَبَ</lemme>
+          <Définition1>دَفَعَ</Définition1>
+          <Définition2>وجامَعَ</Définition2>
+          <Définition3>ومازَحَ.</Définition3>
+          <racine>د ع ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الدّال" C2="R2" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ذَؤُبَ، كَكَرُمَ وفَرِحَ: خَبُثَ، وصارَ كالذِّئْبِ، كتَذَأْبَ.</text-brut>
+          <lemme>ذَؤُبَ</lemme>
+          <Définition1>خَبُثَ</Définition1>
+          <Définition2>وصارَ كالذِّئْبِ</Définition2>
+          <Définition3>كتَذَأْبَ.</Définition3>
+          <racine>د c2 ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الدّال" C2="R2" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ذَرِبَ، كَفَرِحَ، ذَرَباً وذَرَابَةً، فهو ذَرِبٌ: حَدَّ.</text-brut>
+          <lemme>ذَرِبَ</lemme>
+          <Définition>حَدَّ.</Définition>
+          <racine>د c2 ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الدّال" C2="R2" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَكِبَ ذَنَبَ الرِّيحِ: سَبَقَ فلم يُدْرَكْ.</text-brut>
+          <lemme>رَكِبَ ذَنَبَ الرِّيحِ</lemme>
+          <Définition>سَبَقَ فلم يُدْرَكْ.</Définition>
+          <racine>د c2 ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>رَكِبَ ذَنَبَ البَعِيرِ: رَضِيَ بِحَظٍّ ناقِصٍ.</text-brut>
+          <lemme>رَكِبَ ذَنَبَ البَعِيرِ</lemme>
+          <Définition>رَضِيَ بِحَظٍّ ناقِصٍ.</Définition>
+          <racine>د c2 ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الدّال" C2="R2" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ذَهَبَ، كَمَنَعَ، ذَهاباً وذُهوباً ومَذْهَباً، فهو ذَاهِبٌ وذَهُوبٌ: سارَ، أو مَرَّ،</text-brut>
+          <lemme>ذَهَبَ</lemme>
+          <Définition1>سارَ</Définition1>
+          <Définition2>أو مَرَّ</Définition2>
+          <racine>د c2 ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>ذَهِبَ، كَفَرِحَ، وذِهِبَ، بكَسْرَتَيْنِ، لُغَةٌ: هَجَمَ في المَعْدِنِ على ذَهَبٍ كَثيرٍ فَزالَ عَقْلُهُ، وبَرِقَ بَصَرُهُ.</text-brut>
+          <lemme>ذَهِبَ</lemme>
+          <Définition1>هَجَمَ في المَعْدِنِ على ذَهَبٍ كَثيرٍ فَزالَ عَقْلُهُ</Définition1>
+          <Définition2>وبَرِقَ بَصَرُهُ.</Définition2>
+          <racine>د c2 ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الرّاء">
+      <Racine_Familly C1="الرّاء" C2="التَّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَتَبَ رُتُوباً: ثَبَتَ ولم يَتَحَرَّكْ، كتَرَتَّبَ، ورَتَّبْتُه أنا تَرْتيباً.</text-brut>
+          <lemme>رَتَبَ</lemme>
+          <Définition1>ثَبَتَ ولم يَتَحَرَّكْ</Définition1>
+          <Définition2>كتَرَتَّبَ</Définition2>
+          <Définition3>ورَتَّبْتُه أنا تَرْتيباً.</Définition3>
+          <racine>ر ت ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الرّاء" C2="الجيْم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَجِبَ، كَفَرِحَ: فَزعَ واسْتَحْيَا، كَرَجَبَ، كَنَصَرَ،</text-brut>
+          <lemme>رَجِبَ</lemme>
+          <Définition1>فَزعَ واسْتَحْيَا</Définition1>
+          <Définition2>كَرَجَبَ</Définition2>
+          <Définition3>كَنَصَرَ</Définition3>
+          <racine>ر ج ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>رَجَبَ العُودُ: خَرَجَ مُنْفَرِداً،</text-brut>
+          <lemme>رَجَبَ</lemme>
+          <Définition1>خَرَجَ مُنْفَرِداً</Définition1>
+          <racine>ر ج ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الرّاء" C2="الِحَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَحُبَ، كَكَرُمَ وسَمِعَ، رُحْباً، بالضمِّ، ورَحابَةً، فهو رَحْبٌ ورَحِيبٌ ورُحابٌ، بالضمِّ: اتَّسَعَ، كأرْحَبَ.</text-brut>
+          <lemme>رَحُبَ</lemme>
+          <Définition1>اتَّسَعَ</Définition1>
+          <Définition2>كأرْحَبَ.</Définition2>
+          <racine>ر ح ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الرّاء" C2="السِّيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَسَبَ في الماءِ، كَنَصَرَ وكَرُمَ، رُسُوباً: ذَهَبَ سُفْلاً.</text-brut>
+          <lemme>رَسَبَ</lemme>
+          <Définition>ذَهَبَ سُفْلاً.</Définition>
+          <racine>ر س ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الرّاء" C2="الضَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَضَبَ رِيقَها: رَشَفَهُ، كتَرَضَّبَهُ.</text-brut>
+          <lemme>رَضَبَ</lemme>
+          <Définition1>رَشَفَهُ</Définition1>
+          <Définition2>كتَرَضَّبَهُ.</Définition2>
+          <racine>ر ض ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الرّاء" C2="الطّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَطَبَ الرُّطَبُ، ورَطُبَ، كَكَرُمَ، ورَطَّبَ،</text-brut>
+          <lemme>رَطَبَ</lemme>
+          <racine>ر ط ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>رَطَبَ الدَّابَّةَ رَطْباً ورُطوباً: عَلَفَها رَطْبَةً، أي فِصْفِصَةً، ج. رِطابٌ،</text-brut>
+          <lemme>رَطَبَ</lemme>
+          <Définition1>عَلَفَها رَطْبَةً</Définition1>
+          <Définition2>أي فِصْفِصَةً</Définition2>
+          <Pluriel>رِطابٌ</Pluriel>
+          <racine>ر ط ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الرّاء" C2="الغَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَغِبَ فيه، كَسَمِعَ، رَغْباً، ويُضَمُّ،</text-brut>
+          <lemme>رَغِبَ</lemme>
+          <racine>ر غ ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>رَغِبَ بِنَفْسِهِ عنه، (بالكسر): رَأى لِنَفْسِهِ عليه فَضْلاً.</text-brut>
+          <lemme>رَغِبَ</lemme>
+          <Définition>رَأى لِنَفْسِهِ عليه فَضْلاً.</Définition>
+          <racine>ر غ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الرّاء" C2="الكاف" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَكَبَ الذَّنْبَ: اقْتَرَفَه، كارْتَكَبَهُ،</text-brut>
+          <lemme>رَكَبَ</lemme>
+          <Définition1>اقْتَرَفَه</Définition1>
+          <Définition2>كارْتَكَبَهُ</Définition2>
+          <Définition3 />
+          <racine>ر ك ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الرّاء" C2="الهاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>رَهِبَ، كَعَلِمَ، رَهْبَةً ورُهْباً، بالضم وبالفتحِ وبالتحريكِ، ورُهْباناً، بالضم ويُحَرَّكُ: خافَ،</text-brut>
+          <lemme>رَهِبَ</lemme>
+          <Définition1>خافَ</Définition1>
+          <Définition2 />
+          <racine>ر ه ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الزّاي">
+      <Racine_Familly C1="الزّاي" C2="الهَمْزة" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>زَأَبَ القِرْبَةَ، كَمَنَعَ: حَمَلَهَا ثم أَقْبَلَ بها سَرِيعاً، كازْدَأَبَها، وشَرِبَ شُرْباً شديداً،</text-brut>
+          <lemme>زَأَبَ</lemme>
+          <Définition1>حَمَلَهَا ثم أَقْبَلَ بها سَرِيعاً</Définition1>
+          <Définition2>كازْدَأَبَها</Définition2>
+          <Définition3>وشَرِبَ شُرْباً شديداً</Définition3>
+          <racine>ز أ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الزّاي" C2="الِحَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>زَحَبَ إليه، كَدَفَعَ: دَنا.</text-brut>
+          <lemme>زَحَبَ</lemme>
+          <Définition>دَنا.</Définition>
+          <racine>ز ح ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الزّاي" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>زَرِبَ، كَسَمِعَ: سالَ.</text-brut>
+          <lemme>زَرِبَ</lemme>
+          <Définition>سالَ.</Définition>
+          <racine>ز ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الزّاي" C2="العَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>زَعَبَ الإِنَاءَ، كَمَنَعَ: مَلأَهُ، وقَطَعَه، كازْدَعَبَهُ،</text-brut>
+          <lemme>زَعَبَ</lemme>
+          <Définition1>مَلأَهُ</Définition1>
+          <Définition2>وقَطَعَه</Définition2>
+          <Définition3>كازْدَعَبَهُ</Définition3>
+          <racine>ز ع ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الزّاي" C2="الغَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>زَغِبَ، كَفَرِحَ، وزَغَّبَ وازْغابَّ.</text-brut>
+          <lemme>زَغِبَ</lemme>
+          <racine>ز غ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الزّاي" C2="اللاّم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>زَلِبَ الصَّبِيُّ بِأُمِّهِ، كَفَرِحَ: لَزِمَهَا ولم يُفارِقْها.</text-brut>
+          <lemme>زَلِبَ</lemme>
+          <Définition>لَزِمَهَا ولم يُفارِقْها.</Définition>
+          <racine>ز ل ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الزّاي" C2="النُّون" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>زَنِبَ، كَفَرِحَ: سَمِنَ.</text-brut>
+          <lemme>زَنِبَ</lemme>
+          <Définition>سَمِنَ.</Définition>
+          <racine>ز ن ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="السِّيْن">
+      <Racine_Familly C1="السِّيْن" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>سَرَبَ سُروباً: تَوَجَّه للِرَّعْيِ،</text-brut>
+          <lemme>سَرَبَ</lemme>
+          <Définition1>تَوَجَّه للِرَّعْيِ</Définition1>
+          <racine>س ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="السِّيْن" C2="الغَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>سَغِبَ، كَفَرِحَ وكَنَصَرَ، سَغْباً وسَغَباً وسَغَابَةً وسُغوباً ومَسْغَبَةً: جاعَ، أَوْ لا يكونُ إلاَّ مَعَ تَعَبٍ، فهو ساغِبٌ وسَغْبانُ وسَغِبٌ، وهي سَغْبَى، وجَمْعُهما سِغابٌ.</text-brut>
+          <lemme>سَغِبَ</lemme>
+          <Définition1>جاعَ</Définition1>
+          <Définition2>أَوْ لا يكونُ إلاَّ مَعَ تَعَبٍ</Définition2>
+          <Définition3>فهو ساغِبٌ وسَغْبانُ وسَغِبٌ</Définition3>
+          <Définition4>وهي سَغْبَى</Définition4>
+          <Définition5>وجَمْعُهما سِغابٌ.</Définition5>
+          <racine>س غ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="السِّيْن" C2="الكاف" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>سَكَبَ الماءَ سَكْباً وتَسْكاباً فَسَكَب هو سُكُوباً،</text-brut>
+          <lemme>سَكَبَ</lemme>
+          <racine>س ك ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="السِّيْن" C2="اللاّم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>سَلِبَ، كَفَرِحَ: لَبِسَ السِّلابَ، وهي الثِّيابُ السُّودُ، ج. ككُتُبٍ.</text-brut>
+          <lemme>سَلِبَ</lemme>
+          <Définition1>لَبِسَ السِّلابَ</Définition1>
+          <Définition2>وهي الثِّيابُ السُّودُ</Définition2>
+          <Pluriel>ككُتُبٍ.</Pluriel>
+          <racine>س ل ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الشِّيْن">
+      <Racine_Familly C1="الشِّيْن" C2="الجيْم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>شَجَبَ، كَنَصَرَ وفَرِحَ، شُجُوباً وشَجَبَاً، فهو شاجِبٌ وشَجِبٌ: هَلَكَ.</text-brut>
+          <lemme>شَجَبَ</lemme>
+          <Définition>هَلَكَ.</Définition>
+          <racine>ش ج ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الشِّيْن" C2="الِحَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>شَحَبَ لَوْنُهُ، كَجَمَعَ وَنَصَرَ وَكَرُمَ وعُنِيَ، شُحُوباً وشُحُوبَةً: تَغَيَّرَ مِنْ هُزالٍ أو جُوعٍ أو سَفَرٍ،</text-brut>
+          <lemme>شَحَبَ</lemme>
+          <Définition1>تَغَيَّرَ مِنْ هُزالٍ أو جُوعٍ أو سَفَرٍ</Définition1>
+          <racine>ش ح ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الشِّيْن" C2="الخَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>شَخَبَ اللَّبَنَ، كَمَنَعَ وَنَصَرَ، فانْشَخَبَ.</text-brut>
+          <lemme>شَخَبَ</lemme>
+          <racine>ش خ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الشِّيْن" C2="الذّال" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>شَذَبَ اللِّحاءَ يَشْذُبُهُ ويَشْذِبُهُ: قَشَرَهُ، كشَذَّبَهُ،</text-brut>
+          <lemme>شَذَبَ</lemme>
+          <Définition1>قَشَرَهُ</Définition1>
+          <Définition2>كشَذَّبَهُ</Définition2>
+          <Définition3 />
+          <racine>ش ذ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الشِّيْن" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>شَرِبَ، كَسَمِعَ، شَرْباً، ويُثَلَّثُ، ومَشْرَباً وتَشْراباً: جَرَعَ، وأشْرَبْتُهُ أنا،</text-brut>
+          <lemme>شَرِبَ</lemme>
+          <Définition1>جَرَعَ</Définition1>
+          <Définition2>وأشْرَبْتُهُ أنا</Définition2>
+          <Définition3 />
+          <racine>ش ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>شَرِبَ به، كَسَمِعَ، وأُشْرِبَ به: كَذَبَ عليه.</text-brut>
+          <lemme>شَرِبَ</lemme>
+          <Définition>كَذَبَ عليه.</Définition>
+          <racine>ش ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>شَرَبَ، كَنَصَرَ: فَهِمَ،</text-brut>
+          <lemme>شَرَبَ</lemme>
+          <Définition1>فَهِمَ</Définition1>
+          <Définition2 />
+          <racine>ش ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>شَرِبَ: عَطِشَ،</text-brut>
+          <lemme>شَرِبَ</lemme>
+          <Définition1>عَطِشَ</Définition1>
+          <racine>ش ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>شَرِبَ أيضاً: ضَعُفَ بَعيرُهُ، أو عَطِشَتْ إبِلُهُ، ورَوِيَتْ، ضِدُّ.</text-brut>
+          <lemme>شَرِبَ</lemme>
+          <Définition1>ضَعُفَ بَعيرُهُ</Définition1>
+          <Définition2>أو عَطِشَتْ إبِلُهُ</Définition2>
+          <Définition3>ورَوِيَتْ</Définition3>
+          <Définition4>ضِدُّ.</Définition4>
+          <racine>ش ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الشِّيْن" C2="الطّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>شَطَبَ: قَطَعَ، ومالَ،</text-brut>
+          <lemme>شَطَبَ</lemme>
+          <Définition1>قَطَعَ</Définition1>
+          <Définition2>ومالَ</Définition2>
+          <racine>ش ط ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الشِّيْن" C2="العَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>شَعَبَ، كَمَنَعَ: ظَهَرَ،</text-brut>
+          <lemme>شَعَبَ</lemme>
+          <Définition1>ظَهَرَ</Définition1>
+          <racine>ش ع ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الشِّيْن" C2="النُّون" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>شَنِبَ، كَفَرِحَ، فهو شانِبٌ وشَنيبٌ وأشْنَبُ، وهي شَنْبَاءُ، وشَمْباءُ عن سِيبَويْهِ.</text-brut>
+          <lemme>شَنِبَ</lemme>
+          <racine>ش ن ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>شَنِبَ يَوْمُنا، كَفَرِحَ: بَرُدَ، فهو شَنِبٌ وشانِبٌ،</text-brut>
+          <lemme>شَنِبَ</lemme>
+          <Définition1>بَرُدَ</Définition1>
+          <Définition2>فهو شَنِبٌ وشانِبٌ</Définition2>
+          <Définition3 />
+          <racine>ش ن ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الصَّاد">
+      <Racine_Familly C1="الصَّاد" C2="R2" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>صَئِبَ من الشَّرابِ، كَفَرِحَ: رَوِيَ، وامْتَلأَ، فهو مِصْأَبٌ، كمِنْبَرٍ.</text-brut>
+          <lemme>صَئِبَ</lemme>
+          <Définition1>رَوِيَ</Définition1>
+          <Définition2>وامْتَلأَ</Définition2>
+          <Définition3>فهو مِصْأَبٌ</Définition3>
+          <Définition4>كمِنْبَرٍ.</Définition4>
+          <racine>ص ئ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الصَّاد" C2="الِحَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>صَحَبَ المَذْبُوحَ، كمنَعَ: سَلَخَه.</text-brut>
+          <lemme>صَحَبَ</lemme>
+          <Définition>سَلَخَه.</Définition>
+          <racine>ص ح ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الصَّاد" C2="الخَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>صَخِبَ، كَفرحَ، فهو صَخَّابٌ وصَخِبٌ وصَخُوبٌ وصَخْبانُ، وجَمعُ الْأَخيرِ: صُخْبانٌ بالضم، وهي صَخِبَةٌ وصَخَّابَةٌ وصُخُبَّةٌ، كعُتُلَّةٍ، وصَخوبٌ.</text-brut>
+          <lemme>صَخِبَ</lemme>
+          <Définition1>صُخْبانٌ بالضم</Définition1>
+          <Définition2>وهي صَخِبَةٌ وصَخَّابَةٌ وصُخُبَّةٌ</Définition2>
+          <Définition3>كعُتُلَّةٍ</Définition3>
+          <Définition4>وصَخوبٌ.</Définition4>
+          <racine>ص خ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الصَّاد" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>صَرَبَ: قَطَعَ وكَسَبَ، وعَمِلَ الصَّرْبَ، وحَقَنَ البَوْلَ، وعَقَدَ بَطْنَ الصَّبِيِّ لِيَسْمَنَ.</text-brut>
+          <lemme>صَرَبَ</lemme>
+          <Définition1>قَطَعَ وكَسَبَ</Définition1>
+          <Définition2>وعَمِلَ الصَّرْبَ</Définition2>
+          <Définition3>وحَقَنَ البَوْلَ</Définition3>
+          <Définition4>وعَقَدَ بَطْنَ الصَّبِيِّ لِيَسْمَنَ.</Définition4>
+          <racine>ص ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الصَّاد" C2="القَاف" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>صَقِبَ، كَفَرِحَ، وأصْقَبْتُه.</text-brut>
+          <lemme>صَقِبَ</lemme>
+          <racine>ص ق ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الصَّاد" C2="اللاّم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>صَلُبَ، ككَرُمَ وسَمِعَ، صلابةً، وصَلَّبَ تَصْليباً، وصَلَّبْتُه أنا،</text-brut>
+          <lemme>صَلُبَ</lemme>
+          <racine>ص ل ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الضَّاد">
+      <Racine_Familly C1="الضَّاد" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ضَرِبَ، كَفرِحَ: ضَرَبَه البَرْدُ.</text-brut>
+          <lemme>ضَرِبَ</lemme>
+          <Définition>ضَرَبَه البَرْدُ.</Définition>
+          <racine>ض ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الضَّاد" C2="الغَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ضَغَبَ، كَمَنَعَ: صَوَّتَ كالْأرانبِ والذِّئابِ، وفَزَّعَ،</text-brut>
+          <lemme>ضَغَبَ</lemme>
+          <Définition1>صَوَّتَ كالْأرانبِ والذِّئابِ</Définition1>
+          <Définition2>وفَزَّعَ</Définition2>
+          <racine>ض غ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الضَّاد" C2="النُّون" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ضَنَبَ به الأرضَ يَضْنِبُ: ضَرَبَ،</text-brut>
+          <lemme>ضَنَبَ</lemme>
+          <Définition1>ضَرَبَ</Définition1>
+          <racine>ض ن ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الطّاء" />
+    <chapitre value="الظّاء">
+      <Racine_Familly C1="الظّاء" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>ظَرِبَ به، كَفَرِحَ: لَصِقَ،</text-brut>
+          <lemme>ظَرِبَ</lemme>
+          <Définition1>لَصِقَ</Définition1>
+          <racine>ظ ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الظّاء" C2="النُّون" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>قَرَعَ ظَنابِيبَ الْأَمْرِ: ذَلَّلَهُ.</text-brut>
+          <lemme>قَرَعَ ظَنابِيبَ الْأَمْرِ</lemme>
+          <Définition>ذَلَّلَهُ.</Définition>
+          <racine>ظ ن ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="العَيْن">
+      <Racine_Familly C1="العَيْن" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>عَرِبَ، كَفَرِحَ: نَشِطَ، ووَرِمَ، وتَقَيَّحَ،</text-brut>
+          <lemme>عَرِبَ</lemme>
+          <Définition1>نَشِطَ</Définition1>
+          <Définition2>ووَرِمَ</Définition2>
+          <Définition3>وتَقَيَّحَ</Définition3>
+          <racine>ع ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="العَيْن" C2="الزّاي" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>عَزَبَ طُهْرُ المرأةِ: غابَ عنها زوجُها،</text-brut>
+          <lemme>عَزَبَ</lemme>
+          <Définition1>غابَ عنها زوجُها</Définition1>
+          <racine>ع ز ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="العَيْن" C2="الصَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>عَصِبَ اللَّحْمُ، كَفَرِحَ: كَثُرَ عَصَبُه.</text-brut>
+          <lemme>عَصِبَ</lemme>
+          <Définition>كَثُرَ عَصَبُه.</Définition>
+          <racine>ع ص ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="العَيْن" C2="الطّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>عَطَبَ، كنَصَرَ: لانَ.</text-brut>
+          <lemme>عَطَبَ</lemme>
+          <Définition>لانَ.</Définition>
+          <racine>ع ط ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="العَيْن" C2="الظّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>عَظَبَ الطَّائِرُ يَعْظِبُ: حَرَّكَ زِمِكَّاهُ بِسُرْعَةٍ،</text-brut>
+          <lemme>عَظَبَ</lemme>
+          <Définition1>حَرَّكَ زِمِكَّاهُ بِسُرْعَةٍ</Définition1>
+          <racine>ع ظ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="العَيْن" C2="القَاف" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>عَقَبَ القَوْسَ: لَوَى شيئاً منها عليها.</text-brut>
+          <lemme>عَقَبَ</lemme>
+          <Définition>لَوَى شيئاً منها عليها.</Définition>
+          <racine>ع ق ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الغَيْن">
+      <Racine_Familly C1="الغَيْن" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>غَرَبَ: غابَ، كغَرَّبَ، وبَعُدَ.</text-brut>
+          <lemme>غَرَبَ</lemme>
+          <Définition1>غابَ</Définition1>
+          <Définition2>كغَرَّبَ</Définition2>
+          <Définition3>وبَعُدَ.</Définition3>
+          <racine>غ ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>غَرِبَ، كَفَرِحَ: اسْوَدَّ.</text-brut>
+          <lemme>غَرِبَ</lemme>
+          <Définition>اسْوَدَّ.</Définition>
+          <racine>غ ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الغَيْن" C2="الضَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>غَضِبَ، كَسَمِعَ، عليه، وـ لَهُ: إذا كانَ حَيًّا،</text-brut>
+          <lemme>غَضِبَ</lemme>
+          <Définition1>إذا كانَ حَيًّا</Définition1>
+          <Définition2 />
+          <racine>غ ض ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>غَضِبَ به: إذا كانَ مَيِّتاً، وهو غَضِبٌ وغَضوبٌ وغُضُبٌّ وغُضُبَّةٌ وغَضُبَّةُ وغَضَبَّةٌ وغَضْبانُ، وهي غَضْبَى وغَضُوبٌ، وغَضْبانَةٌ قَليلَةٌ، ج. غِضابٌ وغَضَابَى، ويُضَمُّ،</text-brut>
+          <lemme>غَضِبَ</lemme>
+          <Définition1>إذا كانَ مَيِّتاً</Définition1>
+          <Définition2>وهو غَضِبٌ وغَضوبٌ وغُضُبٌّ وغُضُبَّةٌ وغَضُبَّةُ وغَضَبَّةٌ وغَضْبانُ</Définition2>
+          <Définition3>وهي غَضْبَى وغَضُوبٌ</Définition3>
+          <Définition4>وغَضْبانَةٌ قَليلَةٌ</Définition4>
+          <Pluriel>غِضابٌ وغَضَابَى</Pluriel>
+          <Définition6>ويُضَمُّ</Définition6>
+          <Définition7 />
+          <racine>غ ض ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الغَيْن" C2="اللاّم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>غَلِبَ، كَفَرِحَ: غَلُظَ عُنُقُهُ.</text-brut>
+          <lemme>غَلِبَ</lemme>
+          <Définition>غَلُظَ عُنُقُهُ.</Définition>
+          <racine>غ ل ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الغَيْن" C2="اليَاء" C3="الهاء">
+        <Entrée_lexical>
+          <text-brut>غَهِبَ عنه، كفَرِحَ: غَفَلَ ونَسِيَهُ، وأصابَ صَيْداً</text-brut>
+          <lemme>غَهِبَ</lemme>
+          <Définition1>غَفَلَ ونَسِيَهُ</Définition1>
+          <Définition2>وأصابَ صَيْداً</Définition2>
+          <racine>غ ي ه ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الفَاء" />
+    <chapitre value="القَاف">
+      <Racine_Familly C1="القَاف" C2="الهَمْزة" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>قَئِبَ مِنَ الشَّرابِ قَأْباً وقَأَباً: تَمَلأَّ.</text-brut>
+          <lemme>قَئِبَ</lemme>
+          <Définition>تَمَلأَّ.</Définition>
+          <racine>ق أ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="القَاف" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>قَرُبَ منه، ككَرُمَ، وقَرِبَه، كَسَمِع، قُرْباً وقُرْباناً وقِرْباناً: دَنَا، فهو قَريبٌ، للواحِد والجَمْعِ.</text-brut>
+          <lemme>قَرُبَ</lemme>
+          <Définition1>دَنَا</Définition1>
+          <Définition2>فهو قَريبٌ</Définition2>
+          <Définition3>للواحِد والجَمْعِ.</Définition3>
+          <racine>ق ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="القَاف" C2="الزّاي" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>قَزِبَ، كَفَرِحَ.</text-brut>
+          <lemme>قَزِبَ</lemme>
+          <racine>ق ز ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="القَاف" C2="السِّيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>قَسَبَ الماءُ يَقْسِبُ: جَرى،</text-brut>
+          <lemme>قَسَبَ</lemme>
+          <Définition1>جَرى</Définition1>
+          <racine>ق س ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="القَاف" C2="الشِّيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>قَشُبَ، ككَرُمَ، قَشابَةً.</text-brut>
+          <lemme>قَشُبَ</lemme>
+          <racine>ق ش ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="القَاف" C2="الطّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>قَطَبَ يَقْطِبُ قَطْباً وقُطوباً، فهو قاطِبٌ وقَطُوبٌ: زَوى ما بينَ عَيْنَيْهِ، وكَلَحَ، كقَطَّبَ،</text-brut>
+          <lemme>قَطَبَ</lemme>
+          <Définition1>زَوى ما بينَ عَيْنَيْهِ</Définition1>
+          <Définition2>وكَلَحَ</Définition2>
+          <Définition3>كقَطَّبَ</Définition3>
+          <racine>ق ط ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="القَاف" C2="النُّون" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>قَنَبَ فيه: دَخَلَ،</text-brut>
+          <lemme>قَنَبَ</lemme>
+          <Définition1>دَخَلَ</Définition1>
+          <racine>ق ن ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الكاف">
+      <Racine_Familly C1="الكاف" C2="الهَمْزة" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَئِبَ، كَسَمِعَ، واكْتَأَبَ فهو كَئِبٌ وكَئِيبٌ ومُكْتَئِبٌ.</text-brut>
+          <lemme>كَئِبَ</lemme>
+          <racine>ك أ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="البَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>أَكَبَ عليه: أَقْبَلَ، ولَزِمَ، كانْكَبَّ،</text-brut>
+          <lemme>أَكَبَ</lemme>
+          <Définition1>أَقْبَلَ</Définition1>
+          <Définition2>ولَزِمَ</Définition2>
+          <Définition3>كانْكَبَّ</Définition3>
+          <racine>ك ب ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="التَّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَتَبَ السِّقاءَ: خَرَزَه بسَيْرَيْن، كاكْتَتَبَهُ،</text-brut>
+          <lemme>كَتَبَ</lemme>
+          <Définition1>خَرَزَه بسَيْرَيْن</Définition1>
+          <Définition2>كاكْتَتَبَهُ</Définition2>
+          <racine>ك ت ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="الثَّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَثَبَ عليهِ: حَمَلَ وكَرَّ،</text-brut>
+          <lemme>كَثَبَ</lemme>
+          <Définition1>حَمَلَ وكَرَّ</Définition1>
+          <racine>ك ث ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="الذّال" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَذَبَ يَكْذِبُ كَذِباً وكِذْباً وكِذْبَةً وكَذْبَةً وكِذاباً وكِذَّاباً، ككِتابٍ وجِنَّانٍ، وهو كاذِبٌ وكَذَّابٌ وتِكِذَّابٌ وكذوبٌ وكَذوبَةٌ وكَذْبانُ وكَيْذَبانُ وكَيْذُبانُ وكُذُّبْذُبٌ وكُذَبَةٌ ومَكْذُبانُ ومَكْذَبانَةٌ وكُذُبْذُبانُ.</text-brut>
+          <lemme>كَذَبَ</lemme>
+          <racine>ك ذ ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>كَذَبَ: قد يكونُ بمعنى وجَبَ ومنه" كذَبَ عليكُمُ الحَجُّ، كَذَبَ عليكُمُ العُمْرَةُ، كَذَبَ عليكُمُ الجِهادُ، ثلاثَةُ أسْفارٍ كَذَبْنَ عليكُمْ"، أو مِنْ "كَذَبَتْهُ نَفْسُهُ"، إذا مَنَّتْهُ الْأَمانِيَّ وخَيَّلَتْ إليه منَ الآمالِ ما لا يَكادُ يكونُ، أي لِيُكَذِّبْكَ الحَجُّ أي لِيُنَشِّطْكَ ويَبْعَثْكَ على فِعْلِهِ ومَنْ نَصَبَ الحَجَّ جَعَلَ"عليكَ" اسْمَ فِعْلٍ وفي كَذَبَ ضميرُ الحَجِّ أو المعنى كَذَبَ عليكَ الحَجُّ إن ذَكَرَ أنه غيرُ كافٍ هاذِمٍ لما قَبْلَهُ من الذُّنُوبِ.</text-brut>
+          <lemme>كَذَبَ</lemme>
+          <Définition1>قد يكونُ بمعنى وجَبَ ومنه" كذَبَ عليكُمُ الحَجُّ</Définition1>
+          <Définition2>كَذَبَ عليكُمُ العُمْرَةُ</Définition2>
+          <Définition3>كَذَبَ عليكُمُ الجِهادُ</Définition3>
+          <Définition4>ثلاثَةُ أسْفارٍ كَذَبْنَ عليكُمْ"</Définition4>
+          <Définition5>أو مِنْ "كَذَبَتْهُ نَفْسُهُ"</Définition5>
+          <Définition6>إذا مَنَّتْهُ الْأَمانِيَّ وخَيَّلَتْ إليه منَ الآمالِ ما لا يَكادُ يكونُ</Définition6>
+          <Définition7>أي لِيُكَذِّبْكَ الحَجُّ أي لِيُنَشِّطْكَ ويَبْعَثْكَ على فِعْلِهِ ومَنْ نَصَبَ الحَجَّ جَعَلَ"عليكَ" اسْمَ فِعْلٍ وفي كَذَبَ ضميرُ الحَجِّ أو المعنى كَذَبَ عليكَ الحَجُّ إن ذَكَرَ أنه غيرُ كافٍ هاذِمٍ لما قَبْلَهُ من الذُّنُوبِ.</Définition7>
+          <racine>ك ذ ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>حَمَلَ فما كَذَّبَ تكْذيباً: ما جَبُنَ.</text-brut>
+          <lemme>حَمَلَ فما كَذَّبَ تكْذيباً</lemme>
+          <Définition>ما جَبُنَ.</Définition>
+          <racine>ك ذ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَرَبَ كُروباً: دَنا،</text-brut>
+          <lemme>كَرَبَ</lemme>
+          <Définition1>دَنا</Définition1>
+          <racine>ك ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="السِّيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَسَبَ: أصابَ،</text-brut>
+          <lemme>كَسَبَ</lemme>
+          <Définition1>أصابَ</Définition1>
+          <Définition2 />
+          <racine>ك س ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="الظّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَظَبَ كُظُوباً: امْتَلأَ سِمَناً.</text-brut>
+          <lemme>كَظَبَ</lemme>
+          <Définition>امْتَلأَ سِمَناً.</Définition>
+          <racine>ك ظ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="العَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَعَبَ الإِناءَ، كَمَنَعَ: مَلأَهُ،</text-brut>
+          <lemme>كَعَبَ</lemme>
+          <Définition1>مَلأَهُ</Définition1>
+          <racine>ك ع ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="اللاّم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَلِبَ، كَفَرِحَ: أصابَهُ ذلكَ، وغَضِبَ، وسَفِهَ،</text-brut>
+          <lemme>كَلِبَ</lemme>
+          <Définition1>أصابَهُ ذلكَ</Définition1>
+          <Définition2>وغَضِبَ</Définition2>
+          <Définition3>وسَفِهَ</Définition3>
+          <racine>ك ل ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>كَلَبَ يَكْلِبُ،</text-brut>
+          <lemme>كَلَبَ</lemme>
+          <racine>ك ل ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الكاف" C2="النُّون" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>كَنَبَ كُنُوباً: غَلُظَ، كأَكنَبَ، واسْتَغْنَى.</text-brut>
+          <lemme>كَنَبَ</lemme>
+          <Définition1>غَلُظَ</Définition1>
+          <Définition2>كأَكنَبَ</Définition2>
+          <Définition3>واسْتَغْنَى.</Définition3>
+          <racine>ك ن ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="اللاّم">
+      <Racine_Familly C1="اللاّم" C2="الِحَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>لَحَبَ، كَمَنَعَ: وطِئَهُ، وسَلَكَهُ، كالْتَحَبَهُ،</text-brut>
+          <lemme>لَحَبَ</lemme>
+          <Définition1>وطِئَهُ</Définition1>
+          <Définition2>وسَلَكَهُ</Définition2>
+          <Définition3>كالْتَحَبَهُ</Définition3>
+          <racine>ل ح ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>لَحِبَ، كَفَرِحَ: أنْحَلَهُ الكِبَرُ.</text-brut>
+          <lemme>لَحِبَ</lemme>
+          <Définition>أنْحَلَهُ الكِبَرُ.</Définition>
+          <racine>ل ح ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="اللاّم" C2="الزّاي" C3="الواو">
+        <Entrée_lexical>
+          <text-brut>لَزُبَ، كَكَرُمَ، لَزْبَاً ولُزوباً: دَخَلَ بَعْضُهُ في بَعْضٍ،</text-brut>
+          <lemme>لَزُبَ</lemme>
+          <Définition1>دَخَلَ بَعْضُهُ في بَعْضٍ</Définition1>
+          <racine>ل ز و ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="اللاّم" C2="الصَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>لَصِبَ الجِلْدُ باللَّحْمِ، كَفَرِحَ: لَزِقَ هُزالاً،</text-brut>
+          <lemme>لَصِبَ</lemme>
+          <Définition1>لَزِقَ هُزالاً</Définition1>
+          <racine>ل ص ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="اللاّم" C2="العَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>لَعِبَ، كَسَمِعَ، لَعْباً ولَعِباً ولِعْباً وتَلْعاباً،</text-brut>
+          <lemme>لَعِبَ</lemme>
+          <racine>ل ع ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>لَعَبَ، كَمَنَعَ وسَمِعَ: سالَ لُعابُهُ، كأَلْعَبَ.</text-brut>
+          <lemme>لَعَبَ</lemme>
+          <Définition1>سالَ لُعابُهُ</Définition1>
+          <Définition2>كأَلْعَبَ.</Définition2>
+          <racine>ل ع ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="اللاّم" C2="الغَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>لَغَبَ، لَغِبَ لَغْباً ولَغوباً ولُغوباً، كمَنَعَ وسَمِعَ وكرُمَ، وهذه عنِ اللَّبْليِّ: أعْيَا أشَدَّ الإِعْياءِ، وألْغَبَهُ السَّيْرُ، وتَلَغَبَه ولَغَبَه.</text-brut>
+          <lemme>لَغَبَ</lemme>
+          <Définition1>أعْيَا أشَدَّ الإِعْياءِ</Définition1>
+          <Définition2>وألْغَبَهُ السَّيْرُ</Définition2>
+          <Définition3>وتَلَغَبَه ولَغَبَه.</Définition3>
+          <racine>ل غ ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>لَغَبَ عليهِم، كَمَنَعَ: أفْسَدَ،</text-brut>
+          <lemme>لَغَبَ</lemme>
+          <Définition1>أفْسَدَ</Définition1>
+          <racine>ل غ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="اللاّم" C2="الهاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>لَهِبَ، كَفَرِحَ، وهو لَهْبانُ، وهي لَهْبى، ج. لِهابٌ.</text-brut>
+          <lemme>لَهِبَ</lemme>
+          <racine>ل ه ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الميمْ" />
+    <chapitre value="النُّون">
+      <Racine_Familly C1="النُّون" C2="التَّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَتَبَ نُتوباً: نَهَدَ، ونَتَأَ.</text-brut>
+          <lemme>نَتَبَ</lemme>
+          <Définition1>نَهَدَ</Définition1>
+          <Définition2>ونَتَأَ.</Définition2>
+          <racine>ن ت ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="الِحَاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَحَبَ، كَجَعَلَ.</text-brut>
+          <lemme>نَحَبَ</lemme>
+          <racine>ن ح ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="الدّال" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَدِبَ الجُرْحُ، كَفَرِحَ: صَلُبَتْ نَدبَتُهُ، كأَنْدَبَ،</text-brut>
+          <lemme>نَدِبَ</lemme>
+          <Définition1>صَلُبَتْ نَدبَتُهُ</Définition1>
+          <Définition2>كأَنْدَبَ</Définition2>
+          <racine>ن د ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="الزّاي" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَزَبَ الظَّبْيُ يَنْزِبُ نَزْباً ونَزيباً ونُزاباً: صَوَّتَ، أو خاصٌّ بالذُّكورِ.</text-brut>
+          <lemme>نَزَبَ</lemme>
+          <Définition1>صَوَّتَ</Définition1>
+          <Définition2>أو خاصٌّ بالذُّكورِ.</Définition2>
+          <racine>ن ز ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="الشِّيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَشِبَ العَظمُ فيه، كفَرِحَ، نَشَباً ونُشوباً ونُشْبَةً، بالضمِّ: لم يَنْفُذْ.</text-brut>
+          <lemme>نَشِبَ</lemme>
+          <Définition>لم يَنْفُذْ.</Définition>
+          <racine>ن ش ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>نَشِبَ مَنْشَبَ سَوْءٍ، بالفتح: وقَعَ فيما لا مَخْلَصَ عنه.</text-brut>
+          <lemme>نَشِبَ</lemme>
+          <Définition>وقَعَ فيما لا مَخْلَصَ عنه.</Définition>
+          <racine>ن ش ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="الصَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَصِبَ، كفَرِحَ: أعْيا.</text-brut>
+          <lemme>نَصِبَ</lemme>
+          <Définition>أعْيا.</Définition>
+          <racine>ن ص ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>نَصَبَ السيرَ رَفَعَهُ، أو هو أن يَسيرَ طُولَ يومِهِ، وهو سَيْرٌ لَيِنٌ،</text-brut>
+          <lemme>نَصَبَ</lemme>
+          <racine>ن ص ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="الضَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَضَبَ: سالَ، وجَرى،</text-brut>
+          <lemme>نَضَبَ</lemme>
+          <Définition1>سالَ</Définition1>
+          <Définition2>وجَرى</Définition2>
+          <racine>ن ض ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="العَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَعَبَ، الغُرابُ وغَيْرُه، كَمَنَعَ وضَرَبَ، نَعْباً ونَعيباً ونُعاباً وتَنْعاباً ونَعَبَاناً: صَوَّتَ، أو مَدَّ عُنُقَهُ وحَرَّكَ رأسَهُ في صِياحِهِ، وكذا المُؤَذِّنُ.</text-brut>
+          <lemme>نَعَبَ</lemme>
+          <Définition1>صَوَّتَ</Définition1>
+          <Définition2>أو مَدَّ عُنُقَهُ وحَرَّكَ رأسَهُ في صِياحِهِ</Définition2>
+          <Définition3>وكذا المُؤَذِّنُ.</Définition3>
+          <racine>ن ع ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="القَاف" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَقُبَ ككَرُمَ وعَلِمَ، نَقابةً بالفتح: لم يكنْ فصارَ،</text-brut>
+          <lemme>نَقُبَ</lemme>
+          <Définition1>لم يكنْ فصارَ</Définition1>
+          <Définition2 />
+          <racine>ن ق ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>نَقَبَ في الأرضِ: ذَهَبَ، كأنْقَبَ ونَقَّبَ،</text-brut>
+          <lemme>نَقَبَ</lemme>
+          <Définition1>ذَهَبَ</Définition1>
+          <Définition2>كأنْقَبَ ونَقَّبَ</Définition2>
+          <racine>ن ق ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>نَقِبَ الخُفُّ كفرِحَ: تَخَرّقَ،</text-brut>
+          <lemme>نَقِبَ</lemme>
+          <Définition1>تَخَرّقَ</Définition1>
+          <racine>ن ق ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="الكاف" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَكَبَ عنه، كَنَصَرَ وفَرِحَ، نَكْباً ونَكَباً ونُكُوباً: عَدَلَ، كنَكَّبَ وتَنَكَّبَ.</text-brut>
+          <lemme>نَكَبَ</lemme>
+          <Définition1>عَدَلَ</Définition1>
+          <Définition2>كنَكَّبَ وتَنَكَّبَ.</Définition2>
+          <racine>ن ك ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>نَكَبَ الإِناءَ: هَراقَ ما فيه،</text-brut>
+          <lemme>نَكَبَ</lemme>
+          <Définition1>هَراقَ ما فيه</Définition1>
+          <racine>ن ك ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="النُّون" C2="الهاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>نَهَبَ النَّهْبَ، كجَعَلَ وسَمعَ وكَتَبَ: أخَذَهُ، كانْتَهَبَهُ،</text-brut>
+          <lemme>نَهَبَ</lemme>
+          <Définition1>أخَذَهُ</Définition1>
+          <Définition2>كانْتَهَبَهُ</Définition2>
+          <Définition3 />
+          <racine>ن ه ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الواو">
+      <Racine_Familly C1="الواو" C2="الجيْم" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>وَجَبَ يَجِبُ وُجوباً وجِبةً: لَزِمَ.</text-brut>
+          <lemme>وَجَبَ</lemme>
+          <Définition>لَزِمَ.</Définition>
+          <racine>و ج ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الواو" C2="الصَّاد" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>وَصَبَ يَصِبُ وُصوباً: دامَ، وثَبَتَ، كأَوْصَبَ،</text-brut>
+          <lemme>وَصَبَ</lemme>
+          <Définition1>دامَ</Définition1>
+          <Définition2>وثَبَتَ</Définition2>
+          <Définition3>كأَوْصَبَ</Définition3>
+          <racine>و ص ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الواو" C2="الغَيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>وَغُبَ، كَكَرُمَ، وغُوبَةً: ضَخُمَ.</text-brut>
+          <lemme>وَغُبَ</lemme>
+          <Définition>ضَخُمَ.</Définition>
+          <racine>و غ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الواو" C2="القَاف" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>وَقَبَ الظَّلامُ: دَخَلَ،</text-brut>
+          <lemme>وَقَبَ</lemme>
+          <Définition1>دَخَلَ</Définition1>
+          <racine>و ق ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="الهاء">
+      <Racine_Familly C1="الهاء" C2="الدّال" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>هَدِبَ الشَّجَرُ، كَفَرِحَ: طالَ أغصانُها، وتَدَلَّتْ، كأَهْدَبَتْ، فهي هَدْباءُ.</text-brut>
+          <lemme>هَدِبَ</lemme>
+          <Définition1>طالَ أغصانُها</Définition1>
+          <Définition2>وتَدَلَّتْ</Définition2>
+          <Définition3>كأَهْدَبَتْ</Définition3>
+          <Définition4>فهي هَدْباءُ.</Définition4>
+          <racine>ه د ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الهاء" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>هَرِبَ، كفرِح: هَرِمَ.</text-brut>
+          <lemme>هَرِبَ</lemme>
+          <Définition>هَرِمَ.</Définition>
+          <racine>ه ر ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+    </chapitre>
+    <chapitre value="اليَاء" />
+  </rubrique>
+</Document>
+
