@@ -722,6 +722,7 @@ public class ReadTextFile {
 	try {  
                 String alphabet = "[ء-ي]";
                 String voyelle = "[ًٌٍٍَُِِّّّْ]";
+                String v = "[َُِ]";
                 String lemma ="[ء-يًًٌٌٍٍٍََُُُِِِّّّّّّّّّّْأإآ]*";
                 String nom1 ="ال"+lemma;//commence par AL
                 String nom2 =""+lemma+"ٌ";//se termine par tenwin
@@ -729,6 +730,19 @@ public class ReadTextFile {
                 String verbe1 =""+alphabet+"{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
                 String verbe2 =""+alphabet+"{1}?َ"+alphabet+"{1}?ِ"+alphabet+"{1}?َ";
                 String verbe3 =""+alphabet+"{1}?َ"+alphabet+"{1}?ُ"+alphabet+"{1}?َ";
+                String verbe4 =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbe5 =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeI =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeIII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeIV =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeV =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeVI =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeVII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeVIII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeIX =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbeX =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                
                 String means = ""+lemma+":?"+lemma+"?";
                 
                 Pattern p1=Pattern.compile(""+nom1+"",Pattern.UNICODE_CASE);
@@ -737,6 +751,8 @@ public class ReadTextFile {
                 Pattern p4=Pattern.compile(""+verbe1+"",Pattern.UNICODE_CASE);
                 Pattern p5=Pattern.compile(""+verbe2+"",Pattern.UNICODE_CASE);
                 Pattern p6=Pattern.compile(""+verbe3+"",Pattern.UNICODE_CASE);
+                Pattern p7=Pattern.compile(""+verbe4+"",Pattern.UNICODE_CASE);
+                Pattern p8=Pattern.compile(""+verbe5+"",Pattern.UNICODE_CASE);
                 
                 racine1 = new Element("Document");
                 racine2 = new Element("Document");
