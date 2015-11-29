@@ -730,8 +730,8 @@ public class ReadTextFile {
                 String verbe1 =""+alphabet+"{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
                 String verbe2 =""+alphabet+"{1}?َ"+alphabet+"{1}?ِ"+alphabet+"{1}?َ";
                 String verbe3 =""+alphabet+"{1}?َ"+alphabet+"{1}?ُ"+alphabet+"{1}?َ";
-                String verbe4 =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbe5 =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
+                String verbe4 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+"{1}?";
+                String verbe5 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+"تْ";
                 String verbeI =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
                 String verbeII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
                 String verbeIII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
@@ -862,6 +862,8 @@ public class ReadTextFile {
                                 Matcher m4 = p4.matcher( mot );
                                 Matcher m5 = p5.matcher( mot );
                                 Matcher m6 = p6.matcher( mot );
+                                Matcher m7 = p7.matcher( mot );
+                                Matcher m8 = p8.matcher( mot );
     //                            boolean b1 = m1.matches();
     //                            System.out.println(" B1 : "+b1);
     //                            boolean b2 = m2.matches();
@@ -918,7 +920,7 @@ public class ReadTextFile {
                                 }else
 
                                 //---------------------Form verbes------------------
-                                if(m4.matches() || m5.matches() || m6.matches()){
+                                if(m4.matches() || m5.matches() || m6.matches() || m7.matches() || m8.matches()){
                                     enter=new Element("Entrée_lexical");
                                     Element txtBrut=new Element("text-brut");
                                     System.out.println(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());
