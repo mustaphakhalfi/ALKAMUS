@@ -720,30 +720,31 @@ public class ReadTextFile {
     //////////////////////////////////////////////////////////////////:
    public void splitFile(String filePath){
 	try {  
-                String alphabet = "[ء-ي]";
+                String alphabet = "[ء-ي&&[^آ]]";
                 String voyelle = "[ًٌٍٍَُِِّّّْ]";
                 String v = "[َُِ]";
-                String lemma ="[ء-يًًٌٌٍٍٍََُُُِِِّّّّّّّّّّْأإآ]*";
+                String lemma ="[ء-يًًٌٌٍٍٍََُُُِِِّّّّّّّّّّْأإ]*";//"[ء-يًًٌٌٍٍٍََُُُِِِّّّّّّّّّّْأإآ]*"
                 String nom1 ="ال"+lemma;//commence par AL
                 String nom2 =""+lemma+"ٌ";//se termine par tenwin
                 String nom3 =""+lemma+"ة"+voyelle+"?";
-                String verbe1 =""+alphabet+"{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
-                String verbe2 =""+alphabet+"{1}?َ"+alphabet+"{1}?ِ"+alphabet+"{1}?َ";
-                String verbe3 =""+alphabet+"{1}?َ"+alphabet+"{1}?ُ"+alphabet+"{1}?َ";
+                String verbe1 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
+                String verbe2 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ِ"+alphabet+"{1}?َ";
+                String verbe3 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ُ"+alphabet+"{1}?َ";
                 String verbe4 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+"{1}?";
                 String verbe5 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+"تْ";
-                String verbeI =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeIII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeIV =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeV =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeVI =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeVII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeVIII =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeIX =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                String verbeX =""+alphabet+"{1}?َ"+alphabet+"{1}?ّ"+voyelle+"{1}?";
-                
-                String means = ""+lemma+":?"+lemma+"?";
+                String verbeTrans =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ"+"هُ";//hu, haA, ka
+                String verbeII =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+alphabet+"{1}?َ";//2-	C1aC2C2aC3a (فَعَّلَ)
+                String verbeIIIAlif ="آ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//3-HamzaAC2aC3a
+                String verbeIII =""+alphabet+"{1}?َ{0,1}?ا"+alphabet+"{1}?ّ"+alphabet+"{1}?َ";//3-C1aAC2aC3a  
+                String verbeIV ="أ{1}?َ{0,1}?"+alphabet+"{1}?ْ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//4-	(hamza)aC1oC2aC3a (أَحْوَبَ) 
+                String verbeIVAlif ="آ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//4- (آ)C2aC3a 
+                String verbeV ="ت"+"َ{0,1}?"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+alphabet+"{1}?َ"; //5-	taC1aC2C2aC3a 
+                String verbeVI ="ت"+"َ{0,1}?"+alphabet+"{1}?َ{0,1}?ا"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//6-	taC1aAC2aC3a (تَكَاتَبَ)
+                String verbeVIAlif ="ت"+"َ{0,1}?آ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
+                String verbeVII ="أ"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ّ"+voyelle+"{1}?";//7-	(alif)iC1otaC2aC3a 
+                String verbeVIII ="أ"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ّ"+voyelle+"{1}?";//8-	(alif)inoC1aC2aC3a 
+                String verbeIX ="أ"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ّ"+voyelle+"{1}?";//9-	(alif)iC1oC2aC3C3a 
+                String verbeX ="أ"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ّ"+voyelle+"{1}?";//10-	(alif)isotaC1oC2aC3a 
                 
                 Pattern p1=Pattern.compile(""+nom1+"",Pattern.UNICODE_CASE);
                 Pattern p2=Pattern.compile(""+nom2+"",Pattern.UNICODE_CASE);
@@ -753,6 +754,19 @@ public class ReadTextFile {
                 Pattern p6=Pattern.compile(""+verbe3+"",Pattern.UNICODE_CASE);
                 Pattern p7=Pattern.compile(""+verbe4+"",Pattern.UNICODE_CASE);
                 Pattern p8=Pattern.compile(""+verbe5+"",Pattern.UNICODE_CASE);
+                Pattern p9=Pattern.compile(""+verbeTrans+"",Pattern.UNICODE_CASE);
+                Pattern pII=Pattern.compile(""+verbeII+"",Pattern.UNICODE_CASE);
+                Pattern pIII=Pattern.compile(""+verbeIII+"",Pattern.UNICODE_CASE);
+                Pattern pIIIAlif=Pattern.compile(""+verbeIIIAlif+"",Pattern.UNICODE_CASE);
+                Pattern pIV=Pattern.compile(""+verbeIV+"",Pattern.UNICODE_CASE);
+                Pattern pIVAlif=Pattern.compile(""+verbeIVAlif+"",Pattern.UNICODE_CASE);
+                Pattern pV=Pattern.compile(""+verbeV+"",Pattern.UNICODE_CASE);
+                Pattern pVI=Pattern.compile(""+verbeVI+"",Pattern.UNICODE_CASE);
+                Pattern pVIAlif=Pattern.compile(""+verbeVIAlif+"",Pattern.UNICODE_CASE);
+                Pattern pVII=Pattern.compile(""+verbeVII+"",Pattern.UNICODE_CASE);
+                Pattern pVIII=Pattern.compile(""+verbeVIII+"",Pattern.UNICODE_CASE);
+                Pattern pIX=Pattern.compile(""+verbeIX+"",Pattern.UNICODE_CASE);
+                Pattern pX=Pattern.compile(""+verbeX+"",Pattern.UNICODE_CASE);
                 
                 racine1 = new Element("Document");
                 racine2 = new Element("Document");
@@ -864,6 +878,20 @@ public class ReadTextFile {
                                 Matcher m6 = p6.matcher( mot );
                                 Matcher m7 = p7.matcher( mot );
                                 Matcher m8 = p8.matcher( mot );
+                                Matcher m9 = p9.matcher( mot );
+                                Matcher mII = pII.matcher( mot );
+                                Matcher mIII = pIII.matcher( mot );
+                                Matcher mIIIAlif = pIIIAlif.matcher( mot );
+                                Matcher mIV = pIV.matcher( mot );
+                                Matcher mIVAlif = pIVAlif.matcher( mot );
+                                Matcher mV = pV.matcher( mot );
+                                Matcher mVI = pVI.matcher( mot );
+                                Matcher mVIAlif = pVIAlif.matcher( mot );
+                                Matcher mVII = pVII.matcher( mot );
+                                Matcher mVIII = pVIII.matcher( mot );
+                                Matcher mIX = pIX.matcher( mot );
+                                Matcher mX = pX.matcher( mot );
+                                
     //                            boolean b1 = m1.matches();
     //                            System.out.println(" B1 : "+b1);
     //                            boolean b2 = m2.matches();
@@ -919,8 +947,10 @@ public class ReadTextFile {
 
                                 }else
 
-                                //---------------------Form verbes------------------
-                                if(m4.matches() || m5.matches() || m6.matches() || m7.matches() || m8.matches()){
+                                //---------------------Form I verbes------------------
+                                if(m4.matches() || m5.matches() || m6.matches() || m7.matches() || m8.matches() || m9.matches() 
+                               || mII.matches() || mIII.matches() || mIIIAlif.matches() || mIV.matches() || mIVAlif.matches()
+                                 ||mV.matches() || mVI.matches() || mVIAlif.matches()){
                                     enter=new Element("Entrée_lexical");
                                     Element txtBrut=new Element("text-brut");
                                     System.out.println(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());
@@ -932,6 +962,69 @@ public class ReadTextFile {
                                         lemme.setText(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getLemme());
                                         enter.addContent(lemme);
                                     }
+                                    //------------------- POS ----------------------
+                                    if(m4.matches() || m5.matches() || m6.matches() || m7.matches() || m8.matches()){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_I");
+                                        enter.addContent(pos);
+                                    }
+                                    if( m9.matches() ){
+                                        Element pos=new Element("POS");
+                                        pos.setText("VI_transitif");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mII.matches() ){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_II");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mIII.matches() ){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_III");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mIIIAlif.matches() || mIVAlif.matches() ){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_III ou Verbe_IV");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mIV.matches() ){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_IV");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mV.matches() ){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_V");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mVI.matches() || mVIAlif.matches()){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_VI");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mVII.matches()){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_VII");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mVIII.matches() ){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_VIII");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mIX.matches() ){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_IX");
+                                        enter.addContent(pos);
+                                    }
+                                    if( mX.matches()){
+                                        Element pos=new Element("POS");
+                                        pos.setText("Verbe_X");
+                                        enter.addContent(pos);
+                                    }
+                                    
+                                    
                                     if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition() !=null){
                                         Vector<String> defs = new Vector<>();
                                         if(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getDefinition().getSens().contains("،")){
@@ -968,6 +1061,7 @@ public class ReadTextFile {
                                     racineFam2.addContent(enter);
 
                                 }
+                            //---------------------Form VI_Transitif------------------    
 
                             //---------------------Form others------------------
                                 else{
