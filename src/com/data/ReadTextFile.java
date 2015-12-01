@@ -741,10 +741,10 @@ public class ReadTextFile {
                 String verbeV ="ت"+"َ{0,1}?"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+alphabet+"{1}?َ"; //5-	taC1aC2C2aC3a 
                 String verbeVI ="ت"+"َ{0,1}?"+alphabet+"{1}?َ{0,1}?ا"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//6-	taC1aAC2aC3a (تَكَاتَبَ)
                 String verbeVIAlif ="ت"+"َ{0,1}?آ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
-                String verbeVII ="أ"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ّ"+voyelle+"{1}?";//7-	(alif)iC1otaC2aC3a 
-                String verbeVIII ="أ"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ّ"+voyelle+"{1}?";//8-	(alif)inoC1aC2aC3a 
-                String verbeIX ="أ"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ّ"+voyelle+"{1}?";//9-	(alif)iC1oC2aC3C3a 
-                String verbeX ="أ"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ّ"+voyelle+"{1}?";//10-	(alif)isotaC1oC2aC3a 
+                String verbeVII ="ا"+"ِ{0,1}?"+alphabet+"{1}?ْ{1}?ت{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//7-	(alif)iC1otaC2aC3a 
+                String verbeVIII ="ا"+"ِ{0,1}?{1}?ن{1}?ْ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//8-	(alif)inoC1aC2aC3a 
+                String verbeIX ="ا"+"ِ{0,1}?"+alphabet+"{1}?ْ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َّ";//9-	(alif)iC1oC2aC3C3a 
+                String verbeX ="ا"+"ِ{0,1}?"+"سْ{1}?تَ{1}?"+alphabet+"{1}?ّ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//10-	(alif)isotaC1oC2aC3a 
                 
                 Pattern p1=Pattern.compile(""+nom1+"",Pattern.UNICODE_CASE);
                 Pattern p2=Pattern.compile(""+nom2+"",Pattern.UNICODE_CASE);
