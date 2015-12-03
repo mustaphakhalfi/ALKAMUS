@@ -699,6 +699,13 @@
           <racine>ح ط ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
+          <text-brut>اسْتَحْطَبَ العِنَبُ: احْتَاجَ أنْ يُقْطَعَ أعالِيهِ.</text-brut>
+          <lemme>اسْتَحْطَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition>احْتَاجَ أنْ يُقْطَعَ أعالِيهِ.</Définition>
+          <racine>ح ط ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
           <text-brut>حَطَبَ به: سَعَى.</text-brut>
           <lemme>حَطَبَ</lemme>
           <POS>Verbe_I</POS>
@@ -848,6 +855,13 @@
           <POS>VI_transitif</POS>
           <Définition1>ضَرَبَ خُرْبَتَهُ</Définition1>
           <Définition2>وثَقَبَه أو شَقَه</Définition2>
+          <racine>خ ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>اسْتَخْرَبَ: انكسر من مُصِيبَةٍ،</text-brut>
+          <lemme>اسْتَخْرَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition1>انكسر من مُصِيبَةٍ</Définition1>
           <racine>خ ر ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
@@ -1086,6 +1100,13 @@
           <lemme>رَكِبَ ذَنَبَ البَعِيرِ</lemme>
           <POS>Verbe_I</POS>
           <Définition>رَضِيَ بِحَظٍّ ناقِصٍ.</Définition>
+          <racine>د c2 ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>اسْتَذْنَبَ الْأَمْرُ: اسْتَتَبَّ.</text-brut>
+          <lemme>اسْتَذْنَبَ الْأَمْرُ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition>اسْتَتَبَّ.</Définition>
           <racine>د c2 ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
@@ -1765,6 +1786,13 @@
           <racine>ش ر ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
+          <text-brut>اسْتَشْرَبَ لَوْنُهُ: اشْتَدَّ.</text-brut>
+          <lemme>اسْتَشْرَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition>اشْتَدَّ.</Définition>
+          <racine>ش ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
           <text-brut>شَرِبَ به، كَسَمِعَ، وأُشْرِبَ به: كَذَبَ عليه.</text-brut>
           <lemme>شَرِبَ</lemme>
           <POS>Verbe_I</POS>
@@ -1972,6 +2000,17 @@
       </Racine_Familly>
       <Racine_Familly C1="الصَّاد" C2="العَيْن" C3="البَاء">
         <Entrée_lexical>
+          <text-brut>اسْتَصْعَبَ الْأَمْرُ: صارَ صَعْباً، كأصْعَبَ، وصَعُبَ، ككرُمَ، صُعوبَةً،</text-brut>
+          <lemme>اسْتَصْعَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition1>صارَ صَعْباً</Définition1>
+          <Définition2>كأصْعَبَ</Définition2>
+          <Définition3>وصَعُبَ</Définition3>
+          <Définition4>ككرُمَ</Définition4>
+          <Définition5>صُعوبَةً</Définition5>
+          <racine>ص ع ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
           <text-brut>أصْعَبَ الجَمَلَ: تَرَكه فلم يَرْكَبْهُ.</text-brut>
           <lemme>أصْعَبَ</lemme>
           <POS>Verbe_IV</POS>
@@ -2067,6 +2106,14 @@
           <racine>ض ر ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
+          <text-brut>اسْتَضْرَبَ العسلُ: ابْيَضَّ، وغَلُظَ،</text-brut>
+          <lemme>اسْتَضْرَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition1>ابْيَضَّ</Définition1>
+          <Définition2>وغَلُظَ</Définition2>
+          <racine>ض ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
           <text-brut>ضَرَّبَ تَضْريباً: تَعَرَّضَ للثَّلْجِ، وشَرِبَ الضَّريبَ،</text-brut>
           <lemme>ضَرَّبَ</lemme>
           <POS>Verbe_II</POS>
@@ -2118,6 +2165,15 @@
           <lemme>تَزَوَّجَ</lemme>
           <POS>Verbe_V</POS>
           <racine>ط ب ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
+      <Racine_Familly C1="الطّاء" C2="الرّاء" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>اسْتَطْرَبَ: طَلَبَ الطَّرَبَ،</text-brut>
+          <lemme>اسْتَطْرَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition1>طَلَبَ الطَّرَبَ</Définition1>
+          <racine>ط ر ب</racine>
         </Entrée_lexical>
       </Racine_Familly>
       <Racine_Familly C1="الطّاء" C2="اللاّم" C3="البَاء">
@@ -2186,6 +2242,15 @@
           <racine>ع ج ب</racine>
         </Entrée_lexical>
       </Racine_Familly>
+      <Racine_Familly C1="العَيْن" C2="الذّال" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>اسْتَعْذَبَ: اسْتَقَى عَذْباً.</text-brut>
+          <lemme>اسْتَعْذَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition>اسْتَقَى عَذْباً.</Définition>
+          <racine>ع ذ ب</racine>
+        </Entrée_lexical>
+      </Racine_Familly>
       <Racine_Familly C1="العَيْن" C2="الرّاء" C3="البَاء">
         <Entrée_lexical>
           <text-brut>عَرِبَ، كَفَرِحَ: نَشِطَ، ووَرِمَ، وتَقَيَّحَ،</text-brut>
@@ -2228,6 +2293,13 @@
         </Entrée_lexical>
       </Racine_Familly>
       <Racine_Familly C1="العَيْن" C2="السِّيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>اسْتَعْسَبَ منه: كَرِهَه.</text-brut>
+          <lemme>اسْتَعْسَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition>كَرِهَه.</Définition>
+          <racine>ع س ب</racine>
+        </Entrée_lexical>
         <Entrée_lexical>
           <text-brut>أعْسَبَ الذِّئْبُ: عَدَا وفَرَّ.</text-brut>
           <lemme>أعْسَبَ</lemme>
@@ -2364,6 +2436,13 @@
           <lemme>اغْتَرَبَ</lemme>
           <POS>Verbe_VII</POS>
           <Définition>تَزَوَّجَ في غيرِ الْأَقارِبِ.</Définition>
+          <racine>غ ر ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>اسْتَغْرَبَ واسْتُغْرِبَ وأغْرَبَ: بالَغَ في الضَّحِكِ.</text-brut>
+          <lemme>اسْتَغْرَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition>بالَغَ في الضَّحِكِ.</Définition>
           <racine>غ ر ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
@@ -2848,6 +2927,14 @@
           <POS>Verbe_I</POS>
           <racine>ك ل ب</racine>
         </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>اسْتَكْلَبَ: نَبَحَ لِتَسْمَعَهُ الكِلابُ، فَتَنْبَحَ فَيُسْتَدَلَّ بِها عليه،</text-brut>
+          <lemme>اسْتَكْلَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition1>نَبَحَ لِتَسْمَعَهُ الكِلابُ</Définition1>
+          <Définition2>فَتَنْبَحَ فَيُسْتَدَلَّ بِها عليه</Définition2>
+          <racine>ك ل ب</racine>
+        </Entrée_lexical>
       </Racine_Familly>
       <Racine_Familly C1="الكاف" C2="النُّون" C3="البَاء">
         <Entrée_lexical>
@@ -3123,6 +3210,13 @@
         </Entrée_lexical>
       </Racine_Familly>
       <Racine_Familly C1="النُّون" C2="السِّيْن" C3="البَاء">
+        <Entrée_lexical>
+          <text-brut>اسْتَنْسَبَ: ذَكَرَ نَسَبَهُ.</text-brut>
+          <lemme>اسْتَنْسَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition>ذَكَرَ نَسَبَهُ.</Définition>
+          <racine>ن س ب</racine>
+        </Entrée_lexical>
         <Entrée_lexical>
           <text-brut>نَسَبَهُ يَنْسُبُهُ ويَنْسِبُهُ نَسَباً، محركةً، ونِسْبَةً، بالكسر: ذَكَرَ نَسَبَهُ، وسَأَلَهُ أنْ يَنْتَسِبَ،</text-brut>
           <lemme>نَسَبَهُ</lemme>
@@ -3597,6 +3691,14 @@
           <lemme>هَضَبَتِ</lemme>
           <POS>Verbe_I</POS>
           <Définition1>مَطَرَتْ</Définition1>
+          <racine>ه ض ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>اسْتَهْضَبَ: صارَ هَضْباً، ويقالُ "أصابَتْهُمْ أُهْضُوبَةٌ من المطَرِ".</text-brut>
+          <lemme>اسْتَهْضَبَ</lemme>
+          <POS>Verbe_X</POS>
+          <Définition1>صارَ هَضْباً</Définition1>
+          <Définition2>ويقالُ "أصابَتْهُمْ أُهْضُوبَةٌ من المطَرِ".</Définition2>
           <racine>ه ض ب</racine>
         </Entrée_lexical>
       </Racine_Familly>

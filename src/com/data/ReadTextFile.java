@@ -748,7 +748,8 @@ public class ReadTextFile {
                 String verbeVII ="ا"+"ِ{0,1}?["+alphabet+"&&[^ن]]"+"{1}?ْ{1}?ت{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//7-	(alif)iC1otaC2aC3a 
                 String verbeVIII ="ا"+"ِ{0,1}?{1}?ن{1}?ْ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//8-	(alif)inoC1aC2aC3a 
                 String verbeIX ="ا"+"ِ{0,1}?"+alphabet+"{1}?ْ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َّ";//9-	(alif)iC1oC2aC3C3a 
-                String verbeX ="ا"+"ِ{0,1}?"+"سْ{1}?تَ{1}?"+alphabet+"{1}?ّ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//10-	(alif)isotaC1oC2aC3a 
+                String verbeX ="ا"+"ِ{0,1}?"+"{1}س{1}?ْ{1}?ت{1}?َ{1}?"+alphabet+"{1}?ْ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//10-	(alif)isotaC1oC2aC3a 
+//                String verbeX ="ا"+"س"+"ْ"+"ت"+"َ"+alphabet+"{1}?ْ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//10-	(alif)isotaC1oC2aC3a 
                 String verbeTrans ="("+verbe1+"{1}"+suffixeTransitivité+"{1}){0,1}"+"("+verbe2+"{1}"+suffixeTransitivité+"{1}){0,1}"+
                                     "("+verbe3+"{1}"+suffixeTransitivité+"{1}){0,1}";//hu, haA, ka
                 
