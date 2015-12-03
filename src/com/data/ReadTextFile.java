@@ -723,16 +723,20 @@ public class ReadTextFile {
                 String alphabet = "[ء-ي&&[^آ]]";
                 String voyelle = "[ًٌٍٍَُِِّّّْ]";
                 String v = "[َُِ]";
+                String suffixeTransitivité = "(ه{1}ُ{0,1}){1}"+"|(ه{1}َ{0,1}ا{1}){1}"+"|(ك{1}َ{0,1}){1}";
+                String suffixe = "(ْتُ){0,1}"+"(ْتَ){0,1}"+"(َتِ){0,1}"+"(ْنا){0,1}"+"(ْتُمْ){0,1}"+"(ْتُنَّ){0,1}"+"(تِ){0,1}";
+//                String suffixe = "((ْتُ){1})"+"|((ْتَ){1})"+"|((َتِ){1})"+"|((ْنا){1})"+"|((ْتُمْ){1})"+"|((ْتُنَّ){1})"+"|((تِ){1})";
                 String lemma ="[ء-يًًٌٌٍٍٍََُُُِِِّّّّّّّّّّْأإ]*";//"[ء-يًًٌٌٍٍٍََُُُِِِّّّّّّّّّّْأإآ]*"
                 String nom1 ="ال"+lemma;//commence par AL
                 String nom2 =""+lemma+"ٌ";//se termine par tenwin
                 String nom3 =""+lemma+"ة"+voyelle+"?";
-                String verbe1 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
-                String verbe2 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ِ"+alphabet+"{1}?َ";
-                String verbe3 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ُ"+alphabet+"{1}?َ";
+                String verbe1 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ"+suffixe+"{0,1}?";
+                String verbe2 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ِ"+alphabet+"{1}?َ"+suffixe+"{0,1}?";
+                String verbe3 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?ُ"+alphabet+"{1}?َ"+suffixe+"{0,1}?";
                 String verbe4 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+"{1}?";
                 String verbe5 =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+"تْ";
-                String verbeTrans =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ"+"هُ";//hu, haA, ka
+//                String verbeTrans =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ"+suffixeTransitivité+"";//hu, haA, ka
+                
                 String verbeII =""+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+alphabet+"{1}?َ";//2-	C1aC2C2aC3a (فَعَّلَ)
                 String verbeIIIAlif ="آ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//3-HamzaAC2aC3a
                 String verbeIII =""+alphabet+"{1}?َ{0,1}?ا"+alphabet+"{1}?ّ"+alphabet+"{1}?َ";//3-C1aAC2aC3a  
@@ -741,10 +745,12 @@ public class ReadTextFile {
                 String verbeV ="ت"+"َ{0,1}?"+alphabet+"{1}?َ{0,1}?"+alphabet+"{1}?َّ"+alphabet+"{1}?َ"; //5-	taC1aC2C2aC3a 
                 String verbeVI ="ت"+"َ{0,1}?"+alphabet+"{1}?َ{0,1}?ا"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//6-	taC1aAC2aC3a (تَكَاتَبَ)
                 String verbeVIAlif ="ت"+"َ{0,1}?آ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ";
-                String verbeVII ="ا"+"ِ{0,1}?"+alphabet+"{1}?ْ{1}?ت{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//7-	(alif)iC1otaC2aC3a 
+                String verbeVII ="ا"+"ِ{0,1}?["+alphabet+"&&[^ن]]"+"{1}?ْ{1}?ت{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//7-	(alif)iC1otaC2aC3a 
                 String verbeVIII ="ا"+"ِ{0,1}?{1}?ن{1}?ْ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//8-	(alif)inoC1aC2aC3a 
                 String verbeIX ="ا"+"ِ{0,1}?"+alphabet+"{1}?ْ{1}?"+alphabet+"{1}?َ"+alphabet+"{1}?َّ";//9-	(alif)iC1oC2aC3C3a 
                 String verbeX ="ا"+"ِ{0,1}?"+"سْ{1}?تَ{1}?"+alphabet+"{1}?ّ"+alphabet+"{1}?َ"+alphabet+"{1}?َ";//10-	(alif)isotaC1oC2aC3a 
+                String verbeTrans ="("+verbe1+"{1}"+suffixeTransitivité+"{1}){0,1}"+"("+verbe2+"{1}"+suffixeTransitivité+"{1}){0,1}"+
+                                    "("+verbe3+"{1}"+suffixeTransitivité+"{1}){0,1}";//hu, haA, ka
                 
                 Pattern p1=Pattern.compile(""+nom1+"",Pattern.UNICODE_CASE);
                 Pattern p2=Pattern.compile(""+nom2+"",Pattern.UNICODE_CASE);
@@ -950,7 +956,8 @@ public class ReadTextFile {
                                 //---------------------Form I verbes------------------
                                 if(m4.matches() || m5.matches() || m6.matches() || m7.matches() || m8.matches() || m9.matches() 
                                || mII.matches() || mIII.matches() || mIIIAlif.matches() || mIV.matches() || mIVAlif.matches()
-                                 ||mV.matches() || mVI.matches() || mVIAlif.matches()){
+                                 ||mV.matches() || mVI.matches() || mVIAlif.matches() || mVII.matches() || mVIII.matches()
+                                        || mIX.matches() || mX.matches()){
                                     enter=new Element("Entrée_lexical");
                                     Element txtBrut=new Element("text-brut");
                                     System.out.println(chapitres.get(j).getRacineFams().get(x).getEntrerLexicals().get(i).getTexteBrut());

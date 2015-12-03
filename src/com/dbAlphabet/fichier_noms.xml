@@ -1406,6 +1406,12 @@
           <racine>ج ب ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
+          <text-brut>فَرَسٌ مُجَبَّبٌ، كَمُعَظَّمٍ: ارْتَفَعَ البَياضُ منه إلى الجُبَبِ.</text-brut>
+          <lemme>فَرَسٌ مُجَبَّبٌ</lemme>
+          <Définition>ارْتَفَعَ البَياضُ منه إلى الجُبَبِ.</Définition>
+          <racine>ج ب ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
           <text-brut>الجُبُّ، بالضمِّ: البِئْرُ، أو الكثيرةُ الماءِ البَعيدَةُ القَعْرِ، أو الجَيِّدَةُ المَوْضِعِ من الكَلأِ، أو التي لم تُطْوَ، أو ممَّا وُجِدَ لا ممَّا حَفَرَهُ النَّاسُ، ج. أجْبابٌ وجِبابٌ وجِبَبَةٌ، والمَزَادَةُ يُخَيَّطُ بعضُها إلى بعضٍ، و ع بالبَرْبَرِ تُجْلَبُ منه الزَّرَافَةُ، ومَحْضَرٌ لِطِّئٍ، وماءٌ لبني عامِرٍ، وماءٌ لِضَبَّةَ بنِ غَنِّيٍ، وع بين القَاهِرِةَ وبُلْبَيْسَ، و ة بِحَلَبَ، وتُضافُ إلى الكَلْبِ، إذا شَرِبَ منها المَكْلُوبُ قَبْلَ أربعينَ يَوْماً بَرَأَ.</text-brut>
           <lemme>الجُبُّ</lemme>
           <Définition1>البِئْرُ</Définition1>
@@ -2793,6 +2799,12 @@
           <racine>ح ب ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
+          <text-brut>الحَبْحَبَةِ: الضَّعْفِ</text-brut>
+          <lemme>الحَبْحَبَةِ</lemme>
+          <Définition>الضَّعْفِ</Définition>
+          <racine>ح ب ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
           <text-brut>الحَبَّةُ الخَضْراءُ: البُطْمُ،</text-brut>
           <lemme>الحَبَّةُ</lemme>
           <Définition1>البُطْمُ</Définition1>
@@ -3389,6 +3401,12 @@
           <text-brut>التَّحْصيبُ: النَّوْمُ بالمُحَصَّبِ الشِّعْبِ الذي مَخْرَجُهُ إلى الْأَبْطَحِ ساعَةً مِنَ اللَّيْلِ،</text-brut>
           <lemme>تَحْصيب</lemme>
           <Définition1>النَّوْمُ بالمُحَصَّبِ الشِّعْبِ الذي مَخْرَجُهُ إلى الْأَبْطَحِ ساعَةً مِنَ اللَّيْلِ</Définition1>
+          <racine>ح ص ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>المُحَصَّبُ: موضِعُ رَمْيَ الجِمارِ بِمِنىً.</text-brut>
+          <lemme>المُحَصَّبُ</lemme>
+          <Définition>موضِعُ رَمْيَ الجِمارِ بِمِنىً.</Définition>
           <racine>ح ص ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
@@ -4904,6 +4922,16 @@
           <text-brut>الخِنَّابَتانِ، بالكسر ويُضّمُّ: طَرَفَا الْأَنْفِ،</text-brut>
           <lemme>الخِنَّابَتانِ</lemme>
           <Définition1>طَرَفَا الْأَنْفِ</Définition1>
+          <racine>خ ن ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>الخِنَّابَةُ: الْأَرْنَبَةُ العَظِيمَةُ، أو طَرَفُها من أعلاها، والكِبْرُ، وقد تُهْمَزُ الخِنَّابَةُ،</text-brut>
+          <lemme>الخِنَّابَةُ</lemme>
+          <Définition1>الْأَرْنَبَةُ العَظِيمَةُ</Définition1>
+          <Définition2>أو طَرَفُها من أعلاها</Définition2>
+          <Définition3>والكِبْرُ</Définition3>
+          <Définition4>وقد تُهْمَزُ الخِنَّابَةُ</Définition4>
+          <Définition5 />
           <racine>خ ن ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
@@ -7208,6 +7236,14 @@
           <Définition2>أو مَنْبِتُها</Définition2>
           <Définition3>أو الفَرْجُ</Définition3>
           <Définition4>أو ظاهِرُهُ</Définition4>
+          <racine>ر ك ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>الرَّكَبانِ: أصْلُ الفَخِذَيْنِ عليهما لَحْمُ الفَرْجِ، أو خاصٌّ بِهِنَّ، ج. أرْكابٌ وأراكيبُ.</text-brut>
+          <lemme>رَكَبان</lemme>
+          <Définition1>أصْلُ الفَخِذَيْنِ عليهما لَحْمُ الفَرْجِ</Définition1>
+          <Définition2>أو خاصٌّ بِهِنَّ</Définition2>
+          <Pluriel>أرْكابٌ وأراكيبُ.</Pluriel>
           <racine>ر ك ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
@@ -17714,6 +17750,13 @@
           <racine>ن ق ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
+          <text-brut>واحدَةُ النُّقَبِ: للجَرَبِ،</text-brut>
+          <lemme>واحدَةُ النُّقَبِ</lemme>
+          <Définition1>للجَرَبِ</Définition1>
+          <Définition2 />
+          <racine>ن ق ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
           <text-brut>النَّقيبةُ: النَّفْسُ، والعَقْلُ، والمَشُورَةُ، ونفاذُ الرأي، والطَّبيعةُ، والعظيمةُ الضَرْعِ من النُّوقِ.</text-brut>
           <lemme>نَقيبة</lemme>
           <Définition1>النَّفْسُ</Définition1>
@@ -17967,6 +18010,21 @@
           <Définition1>السِّنُّ خَلْفَ الرَّبَاعِيَةِ مؤنَّثٌ</Définition1>
           <Pluriel>أنْيُبٌ وأنْيابٌ ونُيوبٌ</Pluriel>
           <Pluriel>وج أنابيبٌ.</Pluriel>
+          <racine>ن و/ي ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>النابُ: الناقةُ المُسِنَةُ، كالنَّيُّوبِ كتَنُّورٍ، وجَمْعُهُما أنيابٌ ونُيوبٌ ونِيبٌ، أبو لَيْلى أمِّ عِتْبانَ بنِ مالِكٍ.</text-brut>
+          <lemme>النابُ</lemme>
+          <Définition1>الناقةُ المُسِنَةُ</Définition1>
+          <Définition2>كالنَّيُّوبِ كتَنُّورٍ</Définition2>
+          <Définition3>وجَمْعُهُما أنيابٌ ونُيوبٌ ونِيبٌ</Définition3>
+          <Définition4>أبو لَيْلى أمِّ عِتْبانَ بنِ مالِكٍ.</Définition4>
+          <racine>ن و/ي ب</racine>
+        </Entrée_lexical>
+        <Entrée_lexical>
+          <text-brut>النابُ: سيِّدُ القَوْمِ.</text-brut>
+          <lemme>النابُ</lemme>
+          <Définition>سيِّدُ القَوْمِ.</Définition>
           <racine>ن و/ي ب</racine>
         </Entrée_lexical>
         <Entrée_lexical>
